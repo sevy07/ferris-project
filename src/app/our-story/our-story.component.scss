@@ -1,5 +1,6 @@
 .story-background{
-  background-color: rgb(214, 193, 192);
+  // background-color: rgb(214, 193, 192);
+  background-image: url("/assets/images/ferris_wheel_back_intro.png");
 }
 
 .header{
@@ -15,4 +16,35 @@
   width: 60vmin;
   border-radius: 25px;
   border: 2px solid rgb(55, 69, 87);
+}
+
+.polaroid-images span{
+	background: white;
+	display: inline-block;
+	margin: 0 15px 30px;
+	padding: 10px 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	transition: all .15s linear;
+	z-index:0;
+  position:relative;
+  transform: rotate(4deg); 
+}
+
+.polaroid-images span:after {
+	color: #333;
+	font-size: 20px;
+	content: attr(title);
+	position: relative;
+	top:15px;
+}
+
+.polaroid-images img { 
+	display: block; 
+	width: inherit; 
 }
