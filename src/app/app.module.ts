@@ -5,11 +5,17 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { CountDownComponent } from './count-down/count-down.component';
+import { HomeComponent } from './home/home.component';
+import { IntroComponent } from './intro/intro.component';
+import { OurStoryComponent } from './our-story/our-story.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CountDownComponent
+    CountDownComponent,
+    HomeComponent,
+    IntroComponent,
+    OurStoryComponent
   ],
   imports: [
     BrowserModule,
