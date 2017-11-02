@@ -4,12 +4,13 @@
 }
 
 .header{
-  padding-top: 8vh;
+  padding-top: 6vh;
+  padding-bottom: 2vh;
   font-size: 5vmin;
 }
 
 .story-part-one{
-  padding: 5vh 10vw;
+  padding: 0 10vw 3vh;
 }
 
 .story-castle{
@@ -33,7 +34,6 @@
 	transition: all .15s linear;
 	z-index:0;
   position:relative;
-  transform: rotate(4deg); 
 }
 
 .polaroid-images span:after {
@@ -44,7 +44,32 @@
 	top:15px;
 }
 
-.polaroid-images img { 
-	display: block; 
-	width: inherit; 
+.polaroid-images img {
+	display: block;
+  width: inherit;
+  height: 20vmin;
+}
+
+.rotate-plus-four{
+  transform: rotate(4deg);
+}
+
+.rotate-minus-four{
+  transform: rotate(-4deg);
+}
+
+.rotate-plus-eight{
+  transform: rotate(8deg);
+}
+
+.rotate-minus-eight{
+  transform: rotate(-8deg);
+}
+
+.rotate-minus-sixteen{
+  transform: rotate(-16deg);
+}
+
+.rotate-plus-sixteen{
+  transform: rotate(16deg);
 }
