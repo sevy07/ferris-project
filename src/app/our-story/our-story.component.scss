@@ -1,6 +1,6 @@
 .story-background{
-  // background-color: rgb(214, 193, 192);
-  background-image: url("/assets/images/ferris_wheel_back_intro.png");
+  background-color: rgb(146, 186, 196);
+  // background-image: url("/assets/images/ferris_wheel_back_intro.png");
 }
 
 .header{
@@ -38,7 +38,6 @@
 
 .polaroid-images span:after {
 	color: #333;
-	font-size: 20px;
 	content: attr(title);
 	position: relative;
 	top:15px;
@@ -47,7 +46,7 @@
 .polaroid-images img {
 	display: block;
   width: inherit;
-  height: 20vmin;
+  height: 25vmin;
 }
 
 .rotate-plus-four{
