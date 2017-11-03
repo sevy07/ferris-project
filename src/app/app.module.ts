@@ -8,6 +8,7 @@ import { CountDownComponent } from './count-down/count-down.component';
 import { HomeComponent } from './home/home.component';
 import { IntroComponent } from './intro/intro.component';
 import { OurStoryComponent } from './our-story/our-story.component';
+import { ProposalComponent } from './proposal/proposal.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { OurStoryComponent } from './our-story/our-story.component';
     CountDownComponent,
     HomeComponent,
     IntroComponent,
-    OurStoryComponent
+    OurStoryComponent,
+    ProposalComponent
   ],
   imports: [
     BrowserModule,

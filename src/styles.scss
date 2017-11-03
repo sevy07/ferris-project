@@ -54,3 +54,57 @@ body {
   height: 100%;
   padding: 4vmin;
 }
+
+.polaroid-images span{
+	background: white;
+	display: inline-block;
+	margin: 0 10px 30px;
+	padding: 10px 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	transition: all .15s linear;
+	z-index:0;
+  position:relative;
+}
+
+.polaroid-images span:after {
+	color: #333;
+	content: attr(title);
+	position: relative;
+	top:15px;
+}
+
+.polaroid-images img {
+	display: block;
+  width: inherit;
+  height: 25vmin;
+}
+
+.rotate-plus-four{
+  transform: rotate(4deg);
+}
+
+.rotate-minus-four{
+  transform: rotate(-4deg);
+}
+
+.rotate-plus-eight{
+  transform: rotate(8deg);
+}
+
+.rotate-minus-eight{
+  transform: rotate(-8deg);
+}
+
+.rotate-minus-sixteen{
+  transform: rotate(-16deg);
+}
+
+.rotate-plus-sixteen{
+  transform: rotate(16deg);
+}
