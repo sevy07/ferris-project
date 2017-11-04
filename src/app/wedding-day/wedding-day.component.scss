@@ -1,35 +1,8 @@
-.blue-background-liverpool{
-  background-image: url("/assets/images/blue-background-liverpool.png");
+.blue-background-liverpool {
+  background-image: url("/assets/images/blue-background-liverpool.jpg");
   height: 100%;
+}
 
-  h1{
-    padding-top: 5vh;
-    font-size: 8vmin;
-  }
-
-  h2{
-    font-size: 5vmin;
-    padding-top: 4vh;
-    padding-bottom: 3vh;
-  }
-
-  img{
-    height: 25vmin;
-    border: 5px solid white;
-    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-    -moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
-    box-shadow: 0 4px 6px rgba(0,0,0,.3);
-  }
-
-  p{
-    margin: 0;
-  }
-
-  .text-details{
-    padding: 0 8vw 3vh;
-  }
-
-  .wedding-day-itinerary{
-    padding-bottom: 2vh;
-  }
+.church-address {
+  text-align: center;
 }

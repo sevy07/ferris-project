@@ -1,17 +1,23 @@
-.ferris-wheel-back-intro{
-  // background-image: url("/assets/images/ferris_wheel_back_intro.png");
+.ferris-wheel-back-intro {
   background-color: rgb(214, 193, 192);
 }
 
-.header-intro{
+.header-intro {
   padding-top: 10vh;
+  text-align: center;
+  font-size: 2rem;
 }
 
-.details{
+.details {
   padding: 6vh 10vw;
 }
 
-.see-you{
+.see-you {
   padding-bottom: 8vh;
   padding-top: 2vh;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0;
 }

@@ -10,6 +10,7 @@ import { IntroComponent } from './intro/intro.component';
 import { OurStoryComponent } from './our-story/our-story.component';
 import { ProposalComponent } from './proposal/proposal.component';
 import { WeddingDayComponent } from './wedding-day/wedding-day.component';
+import { YourTripComponent } from './your-trip/your-trip.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { WeddingDayComponent } from './wedding-day/wedding-day.component';
     IntroComponent,
     OurStoryComponent,
     ProposalComponent,
-    WeddingDayComponent
+    WeddingDayComponent,
+    YourTripComponent
   ],
   imports: [
     BrowserModule,
