@@ -11,6 +11,7 @@ import { OurStoryComponent } from './our-story/our-story.component';
 import { ProposalComponent } from './proposal/proposal.component';
 import { WeddingDayComponent } from './wedding-day/wedding-day.component';
 import { YourTripComponent } from './your-trip/your-trip.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { YourTripComponent } from './your-trip/your-trip.component';
     OurStoryComponent,
     ProposalComponent,
     WeddingDayComponent,
-    YourTripComponent
+    YourTripComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
