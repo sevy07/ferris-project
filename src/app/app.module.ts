@@ -12,6 +12,7 @@ import { ProposalComponent } from './proposal/proposal.component';
 import { WeddingDayComponent } from './wedding-day/wedding-day.component';
 import { YourTripComponent } from './your-trip/your-trip.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     ProposalComponent,
     WeddingDayComponent,
     YourTripComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
