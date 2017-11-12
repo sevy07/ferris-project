@@ -3,13 +3,13 @@
   <app-menu></app-menu>
 
   <div class="language-link">
-    <span class="selected-language">
+    <span (click)="selectLanguage('en')" [ngClass]="{'selected-language': translate.currentLang === 'en'}">
       EN
     </span>
-    <span>
+    <span (click)="selectLanguage('es')" [ngClass]="{'selected-language': translate.currentLang === 'es'}">
       ES
     </span>
-    <span>
+    <span (click)="selectLanguage('fr')" [ngClass]="{'selected-language': translate.currentLang === 'fr'}">
       FR
     </span>
   </div>

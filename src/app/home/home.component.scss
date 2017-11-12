@@ -12,9 +12,13 @@ h2 {
   padding-top: 4vh;
 }
 
-.language-link{
-  float:right;
+.language-link {
+  float: right;
   margin: 1vh 3vw;
+
+  span {
+    cursor: pointer;
+  }
 }
 
 .selected-language {
