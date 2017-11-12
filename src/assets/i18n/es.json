@@ -38,5 +38,23 @@
     "FERRIS": "Creo que os podéis imaginar el final (¿o deberíamos decir el principio?) de esta historia. Cuando se subieron a la noria, Jean-Yves \"hincó la rodilla\" (¡igual que Jon Nieve!) y... alerta spoiler: ¡¡¡¡María dijo que SÍ!!!!",
     "NIGHT": "Pero eso no fue todo: ¡Jean-Yves tenía muchas más sorpresas para María y el día no había acabado! Había reservado la suite Paul McCartney en el Hotel Hard Day's Night, y una mesa en el increíble restaurante Panoramic 34. Al final, María descubrió que no tenía que interpretar al día siguiente... ¡Jean-Yves había pensado en todo!",
     "CONCLUSION": "Así que, queridos amigos, ¡así fue como empezó todo! Fue un fin de semana muy emocionante y nos alegra que pronto vayamos a tener la oportunidad de compartir uno de los días más importantes de nuestras vidas con vosotros."
+  },
+
+  "WEDDING-DAY": {
+    "TITLE": "EL DÍA “B”",
+    "CEREMONY": {
+      "TITLE": "CEREMONIA",
+      "DETAILS-CEREMONY": "La ceremonia se celebrará el",
+      "DETAILS-DATE": "sábado 25 de agosto de 2018",
+      "DETAILS-TIME": "a las",
+      "DETAILS-LOCATION": "en la Iglesia de San Francisco, a sólo 150 metros de la Catedral de Santiago."
+    },
+    "RECEPTION": {
+      "TITLE": "BANQUETE",
+      "DETAILS": "Después de la ceremonia eclesiástica, el aperitivo, el banquete y el baile tendrán lugar justo al lado, en el Hotel Monumento"
+    },
+    "GETTING-THERE": {
+      "TITLE": "CÓMO LLEGAR"
+    }
   }
 }

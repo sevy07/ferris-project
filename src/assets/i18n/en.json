@@ -38,5 +38,24 @@
     "FERRIS": "I think you can guess the end (or should we say the beginning?) of this story. When they were on the ferris wheel, Jean-Yves bent the knee (just like Jon Snow!) and.... spoiler alert: María said YES!!!",
     "NIGHT": "But that wasn't all: Jean-Yves had more surprises in store for María and the day was not over! He had booked the Paul McCartney suite at the Hard Day's Night Hotel, and a table at the amazing Panoramic34 restaurant! In the end, María found out she didn't really have an interpreting job the following day... J-Y had thought of every single detail!",
     "CONCLUSION": "So... this is how this all started! It was a very exciting weekend and we're happy we'll soon have the chance to share one of the most important days of our lives with you all!"
+  },
+
+  "WEDDING-DAY": {
+    "TITLE": "THE BIG DAY",
+    "CEREMONY": {
+      "TITLE":"CEREMONY",
+      "DETAILS-CEREMONY": "The ceremony will take place on",
+      "DETAILS-DATE": "Saturday the 25.08.2018",
+      "DETAILS-TIME": "at",
+      "DETAILS-LOCATION": "at San Francisco’s Church in Santiago de Compostela (Galicia, Spain), which is just 150 metres away from the Cathedral."
+    },
+    "RECEPTION": {
+      "TITLE": "RECEPTION",
+      "DETAILS": "After the religious ceremony, the reception will take place just next door, at the Hotel Monumento"
+    },
+    "GETTING-THERE": {
+      "TITLE": "GETTING THERE"
+    }
   }
+
 }
