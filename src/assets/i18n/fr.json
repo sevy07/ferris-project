@@ -1,4 +1,6 @@
 {
+  "AND": "et",
+
   "HOME": {
     "TITLE": "ON SE MARIE !",
     "DETAILS": "Et nous sommes très heureux de pouvoir partager cette expérience avec vous ! Si vous voulez en savoir plus sur notre histoire, sur la demande en mariage à Liverpool et, bien sûr, si vous voulez connaître tous les détails concernant notre mariage et votre prochain voyage en Galice, vous êtes au bon endroit !",
@@ -55,6 +57,46 @@
     },
     "GETTING-THERE": {
       "TITLE": "ADRESSE"
+    }
+  },
+
+  "YOUR-TRIP": {
+    "SANTIAGO": {
+      "TITLE": "VOTRE VOYAGE À SAINT-JACQUES",
+      "DETAILS": "Saint-Jacques de Compostelle est la capitale de la région espagnole de Galice. Elle est connue comme l'arrivée de l'épique Chemin de Saint-Jacques de Compostelle. La vieille ville est Patrimoine Mondial de l’UNESCO, et dans ses petites ruelles et arcades on respire l’art, l’histoire et les légendes.",
+      "VISITS-ONE": "La visite de la Cathédrale, des",
+      "VISITS-TWO": "(places), et petites",
+      "VISITS-THREE": "(rues) qui l’entourent est incontournable. La Cathédrale abrite le tombeau de l’apôtre Saint-Jacques et c’est une imposante structure romane avec des ajouts ultérieurs gothiques et baroques."
+    },
+    "GETTING-THERE": {
+      "TITLE": "LE TRAJET",
+      "AIRPORT": "Saint-Jacques de Compostelle a un aéroport avec des vols directs depuis et vers Londres (Ryanair, Easyjet et Vueling), Madrid, Barcelone, Paris (Vueling) et d’autres destinations européennes.",
+      "CORUNA": "La Corogne, une ville qui se trouve à une demie heure de Saint-Jacques et que la plupart d’entre vous connaît probablement grâce à sa célèbre équipe de foot (Allez Dépor !), a aussi un aéroport avec des vols directs depuis et vers Londres (Vueling).",
+      "PORTO": "Prendre un vol jusqu’à Porto (au nord du Portugal) peut aussi être une bonne solution. Il y a beaucoup de vols depuis et vers Londres, Paris, Lyon, Toulouse parmi d’autres destinations. Après il faudra prendre un car jusqu’à Saint-Jacques depuis l’aéroport de Porto. Le trajet en car prend à peu près trois heures.",
+      "CAMINO": "Et bien sûr, pour les plus courageux il y a une autre option : le Chemin ! Mais commencez à préparer vos bottes de pèlerin, puisqu’il vous faudra quelques mois pour arriver à Saint-Jacques et on ne voudrait pas que vous manquiez une occasion si spéciale ! :P"
+    },
+    "SLEEP": {
+      "TITLE": "OÙ DORMIR",
+      "DETAILS": "Il y a beaucoup d’options d’hébergement différentes : des hôtels, Airbnb, des auberges, des chambres d’hôtes… Donc vous ne devriez avoir aucun problème pour trouver un logement. Par contre, la ville de Saint-Jacques attire beaucoup de touristes, surtout pendant les mois d’été, et nous vous conseillons donc de réserver votre logement le plus tôt possible !",
+      "FRANCISCO": "Vous avez peut-être remarqué que le site du mariage est aussi un",
+      "HOTEL": "hôtel",
+      "FRANCISCO-DETAILS": "C’est un ancien couvent finement restauré et les invités à notre mariage peuvent bénéficier d’une réduction s’ils choisissent d’y rester. Si vous voulez réserver une chambre dans cet hôtel contactez-nous pour qu’on puisse la bloquer pour vous. Après il faudra confirmer la réservation au moins un mois à l’avance",
+      "FRANCISCO-LET-KNOW": "en disant bien que vous venez pour notre mariage.",
+      "FRANCISCO-PRICE": " Le prix final avec la réduction sera de 116 € la nuit.",
+      "SMALL": "Par contre, Saint-Jacques est une petite ville et notre mariage aura lieu dans le centre, donc il y a beaucoup d’autres options d’hébergement (et la plupart seront plus abordables), qui se trouvent à quelques minutes à pied de là où le mariage se déroule.",
+      "SUGGESTION": "Voici quelques suggestions pour voyageurs avec différents budgets :"
+    },
+    "BUDGET": {
+      "TITLE": "SI VOUS AVEZ UN PETIT BUDGET :",
+      "PINARIO": "se trouve à trois minutes à pied du lieu de célébration du mariage et de la Cathédrale. Les chambres sont assez basiques mais vous aurez une salle de bains privée, et l’emplacement est excellent. Ce logement est TRÈS populaire, on vous recommande donc de faire votre réservation le plus tôt possible.",
+      "LUCIS": "Il y a beaucoup d’autres chambres d’hôtes et auberges comme"
+    },
+    "LIKE": {
+      "TITLE": "NOS HOTELS PREFERES",
+      "ALTAMIRA": "Design fonctionnel et contemporain au cœur de la vieille ville. À quelques minutes à pied de de San Francisco.",
+      "BIEITO": "“Smart” à cause des gadgets électroniques disponibles dans les chambres; “littéraire” à cause de sa thématique, la littérature galicienne. Chambres confortables dans un bâtiment du XVIème siècle restauré. Il se trouve dans la vieille ville.",
+      "SAN-MIGUEL": "Logement idéal pour les voyageurs, situé au cœur de la vieille ville.",
+      "OTHERS": "D’autres options (qui se trouvent aussi dans la vieille ville, à quelques minutes de l’endroit du mariage) :"
     }
   }
 }

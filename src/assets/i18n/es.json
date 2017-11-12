@@ -1,4 +1,6 @@
 {
+  "AND": "y",
+
   "HOME": {
     "TITLE": "¡NOS CASAMOS!",
     "DETAILS": "¡Y estamos muy contentos de poder compartir esta experiencia con vosotros! Si queréis saber más sobre nuestra historia, la pedida en Liverpool y, por supuesto, todos los detalles acerca de nuestra boda y vuestro próximo viaje a Galicia, ¡estáis en el sitio adecuado! ",
@@ -55,6 +57,46 @@
     },
     "GETTING-THERE": {
       "TITLE": "CÓMO LLEGAR"
+    }
+  },
+
+  "YOUR-TRIP": {
+    "SANTIAGO": {
+      "TITLE": "VUESTRO VIAJE A SANTIAGO",
+      "DETAILS": "Santiago de Compostela es la capital de la comunidad autónoma de Galicia y la última parada del épico Camino de Santiago. Su casco histórico fue declarado Patrimonio de la Humanidad, y sus soportales y calles de piedra están impregnados de arte, historia y leyendas.",
+      "VISITS-ONE": "En Santiago es obligatoria la visita a la catedral, una impresionante estructura románica con elementos góticos y barrocos que alberga la tumba del apóstol Santiago, así como un paseo por las",
+      "VISITS-TWO": "y estrechas",
+      "VISITS-THREE": "que la rodean."
+    },
+    "GETTING-THERE": {
+      "TITLE": "CÓMO LLEGAR",
+      "AIRPORT": "Santiago de Compostela tiene un aeropuerto con vuelos directos desde y hacia Londres (con Ryanair, Easyjet y Vueling), Madrid, Barcelona, París (Vueling) y otras ciudades europeas.",
+      "CORUNA": "A Coruña, una ciudad que se encuentra a media hora de Santiago y que la mayoría probablemente conocéis debido a su fantástico equipo de fútbol (¡FORZA DÉPOR!), también tiene un aeropuerto con vuelos directos desde y hacia Londres (con Vueling).",
+      "PORTO": "Volar a Oporto puede ser también una buena opción. Hay muchos vuelos desde y hacia Londres, París, Lyon, Toulouse… entre otras ciudades. Luego podríais coger un autobús desde el aeropuerto de Oporto que os llevaría hasta Santiago. El viaje en autobús dura aproximadamente tres horas.",
+      "CAMINO": "Y, por supuesto, para los más valientes hay otra alternativa: ¡el Camino! Pero empezad a desempolvar vuestras botas, porque os va a llevar unos meses llegar a Santiago y… ¡no queremos que os perdáis una ocasión tan especial! :P"
+    },
+    "SLEEP": {
+      "TITLE": "DÓNDE DORMIR",
+      "DETAILS": "Hay muchas opciones de alojamiento disponibles: hoteles, Airbnb, albergues, hostales… Así que no deberíais tener ningún problema para encontrar un sitio en el que hospedaros. Eso sí, tened en cuenta que Santiago atrae a un gran número de turistas, especialmente durante los meses de verano, ¡así que os recomendamos que reservéis vuestro alojamiento lo antes posible!",
+      "FRANCISCO": "Probablemente os habréis fijado en que el banquete de nuestra boda tendrá lugar en un",
+      "HOTEL": "hotel",
+      "FRANCISCO-DETAILS": "Es un antiguo convento restaurado con muy buen gusto, y los invitados pueden disfrutar de un descuento si deciden alojarse en el hotel. Si os interesa reservar una habitación, lo mejor es que os pongáis en contacto con nosotros para que podamos bloquearla. Luego habría que formalizar la reserva al menos un mes antes del enlace",
+      "FRANCISCO-LET-KNOW": "haciendo referencia a nuestra boda.",
+      "FRANCISCO-PRICE": "El precio final de cada habitación con el descuento sería de 116 € la noche.",
+      "SMALL": "Ahora bien, Santiago es una ciudad pequeña y la boda será en el centro, así que hay muchas más opciones de alojamiento (y la mayoría más abordables) a sólo unos minutos de San Francisco",
+      "SUGGESTION": "Aquí tenéis unas cuantas sugerencias para viajeros con distintos presupuestos."
+    },
+    "BUDGET": {
+      "TITLE": "SI TENÉIS UN PRESUPUESTO LIMITADO:",
+      "PINARIO": "Está a un par de minutos andando de San Francisco y de la catedral. Las habitaciones son bastante básicas, pero tienen baño individual, y la ubicación es inmejorable. Este sitio tiene una gran demanda, así que os recomendamos que reservéis habitación lo antes posible.",
+      "LUCIS": "Hay muchas otras pensiones y hostales como la"
+    },
+    "LIKE": {
+      "TITLE": "ALGUNOS HOTELES QUE NOS GUSTAN:",
+      "ALTAMIRA": "Diseño funcional y contemporáneo en el corazón del casco antiguo. A sólo unos minutos de San Francisco.",
+      "BIEITO": "“Smart” por todos los gadgets tecnológicos disponibles en las habitaciones; “literario” por su temática centrada en la literatura gallega. Habitaciones cómodas y relativamente espaciosas en un edificio restaurado del siglo XVI. Ubicado en el casco histórico.",
+      "SAN-MIGUEL": "Ideal para los viajeros y ubicado en el corazón del casco antiguo.",
+      "OTHERS": "Otras opciones (situadas también en el casco antiguo y a sólo unos minutos de San Francisco):"
     }
   }
 }

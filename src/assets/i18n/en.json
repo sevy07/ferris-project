@@ -1,4 +1,6 @@
 {
+  "AND": "and",
+
   "HOME": {
     "TITLE": "WE ARE GETTING MARRIED!",
     "DETAILS": "And we are thrilled to be able to share this experience with you! If you want to know more about our story, J-Y's lovely proposal in Liverpool and, of course, all the details about our wedding, as well as information for your upcoming trip to Galicia, look no further: it's all here!",
@@ -55,6 +57,46 @@
     },
     "GETTING-THERE": {
       "TITLE": "GETTING THERE"
+    }
+  },
+
+  "YOUR-TRIP": {
+    "SANTIAGO": {
+      "TITLE": "YOUR TRIP TO SANTIAGO",
+      "DETAILS": "Santiago de Compostela is the capital of the Spanish region of Galicia. It is known as the final stop on the epic Camino de Santiago pilgrimage trail. Its old town is a World Heritage Site, and its arcaded stone streets are impregnated with art, history and legends.",
+      "VISITS-ONE": "You cannot leave Santiago without visiting the Cathedral, which is the reputed burial place of St James the Great, a grand Romanesque structure with later Gothic and Baroque additions, as well as the",
+      "VISITS-TWO": "(squares) and narrow",
+      "VISITS-THREE": "(streets) surrounding it."
+    },
+    "GETTING-THERE": {
+      "TITLE":"GETTING THERE",
+      "AIRPORT": "Santiago de Compostela has an airport with direct flights to and from London (with Ryanair, Easyjet and Vueling), Madrid, Barcelona, Paris (Vueling) and other European destinations.",
+      "CORUNA":"A Coruña, a city which is only half an hour away from Santiago and that most of you probably know because of its wonderful football team (go Dépor go!), also has an airport with direct flights to and from London (with Vueling).",
+      "PORTO": "Sometimes flying out to Porto in Northern Portugal can be a good option too. There are many flights to and from London, Paris, Lyon, Toulouse, among other destinations. Then it's possible to travel to Santiago by coach from Porto's airport. The journey takes about three hours.",
+      "CAMINO": "And of course, for the bravest among you there is one more option: el Camino! But start getting your pilgrim boots ready, as it will take you a few months to reach Santiago and we wouldn't want you to miss such a special occasion! :p"
+    },
+    "SLEEP": {
+      "TITLE": "WHERE TO SLEEP",
+      "DETAILS": "There are many different options in terms of accommodation: hotels, Airbnb, hostels, guesthouses... So you shouldn't have any issues finding a place to stay. However, please be aware that Santiago attracts many tourists, especially during the summer, so we highly recommend booking your accommodation as soon as possible!",
+      "FRANCISCO": "First, you might have noticed our wedding venue is also a",
+      "HOTEL": "hotel",
+      "FRANCISCO-DETAILS": "It is a beautifully restored old convent and our wedding guests can enjoy a discount if they choose to stay there. Please let us know if you are interested in booking a room there so that we can block it for you. Then you will need to confirm your reservation at least one month in advance,",
+      "FRANCISCO-LET-KNOW": "letting the hotel know you are coming to our wedding when you confirm the booking.",
+      "FRANCISCO-PRICE": "The final price with the discount will be €116 per night.",
+      "SMALL": "However, Santiago is a small town and our wedding will take place in the city centre, so there are many more accommodation options (and most of them more affordable) only a few minutes away from the venue.",
+      "SUGGESTION": "Here are a few suggestions for travelers with different budgets."
+    },
+    "BUDGET":{
+      "TITLE": "IF YOU ARE TRAVELLING ON A BUDGET:",
+      "PINARIO": "It is just a couple of minutes’ walk from our wedding venue and from the Cathedral. The rooms are quite basic but ensuite, so you will have your own private bathroom, and the location is unbeatable. This place is VERY popular so we recommend booking as soon as possible.",
+      "LUCIS": "There are many other pensions and hostels such as"
+    },
+    "LIKE":{
+      "TITLE":"SOME HOTELS WE LIKE:",
+      "ALTAMIRA": "Functional and contemporary design in the heart of the Old Town. Just a few minutes away from our wedding venue.",
+      "BIEITO": "“Smart” for all the technical gadgets available in the rooms; “literary” for its Galician literature theme. Comfortable rooms in a converted16th century building. Located in the Old Town.",
+      "SAN-MIGUEL": "Ideal spot for travellers, nestled in the heart of the Old Town.",
+      "OTHERS": "Other options (also located in the Old Town and minutes away from the venue):"
     }
   }
 
