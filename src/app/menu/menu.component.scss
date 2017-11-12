@@ -3,11 +3,16 @@
 $animation-time: .3s;
 $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
 
+a {
+  color: $font-color;
+}
+
 .menu-container{
     width: 250px;
     height: 100%;
-    position: fixed;
+    position: absolute;
     background: #fff;
+    padding-top: 15px;
     top: 0;
     bottom: 0;
     left: 0;
@@ -16,6 +21,8 @@ $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     overflow: auto;
     height: calc(100% - 60px);
     box-shadow: 10px 10px 20px rgba(0,0,0,.3);
+    text-align: center;
+    z-index: 9;
 }
 
 .menu-container .show-menu{
@@ -42,7 +49,7 @@ $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     border-bottom: 1px solid #ccc;
 }
 
-.menu-container ul > li > a:hover{
+.active {
     background: rgb(146, 186, 196);
     color: #fff;
 }
@@ -63,8 +70,8 @@ $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   width: 40px;
   height: 24px;
   padding: 0;
-  margin-top: 12px;
-  margin-left: 15px;
+  margin-top: 25px;
+  margin-left: 25px;
   cursor: pointer;
   transition: transform .2s ease-in-out;
   -moz-transition: transform .2s ease-in-out;
@@ -72,6 +79,8 @@ $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   vertical-align: middle;
   border: 0 none;
   background: transparent;
+  position: relative;
+  z-index: 10;
 }
 
 .hamburger:focus {

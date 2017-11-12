@@ -1,15 +1,42 @@
 <div class="menu-container" [ngClass]="{'show-menu': menuState, 'hide-menu': !menuState}">
   <ul>
-    <li *ngFor="let item of menuList" (click)="onItemClick(item)">
-      <a (click)="toggleSubMenu(item)">{{item.title}}
-        <i *ngIf="item.subItems && !item.expand" class="fa fa-angle-down"></i>
-        <i *ngIf="item.subItems && item.expand" class="fa fa-angle-up"></i>
+    <li>
+      <a routerLink="/home" routerLinkActive="active">Home</a>
+    </li>
+    <li>
+      <a routerLink="/our-story" routerLinkActive="active">Our story</a>
+    </li>
+    <li>
+      <a routerLink="/proposal" routerLinkActive="active">The proposal</a>
+    </li>
+    <li>
+      <a routerLink="/wedding-day" routerLinkActive="active">The big day</a>
+    </li>
+    <li>
+      <a (click)="toggleSubMenu()">
+        Your trip to Santiago
+        <i class="fa" [ngClass]="{'fa-angle-up': expand, 'fa-angle-down': !expand}"></i>
       </a>
-      <ul *ngIf="item.subItems" class="sub-menu" [hidden]="!item.expand">
-        <li *ngFor="let subitem of item.subItems" (click)="onItemClick(subitem)">
-          <a>{{subitem.title}}</a>
+      <ul class="sub-menu" [hidden]="!expand">
+        <li>
+          <a routerLink="/your-trip" fragment="getting-there">Getting there</a>
+        </li>
+        <li>
+          <a routerLink="/your-trip" fragment="where-to-sleep">Where to sleep</a>
+        </li>
+        <li>
+          <a routerLink="/your-trip" fragment="where-to-eat">Where to eat</a>
+        </li>
+        <li>
+          <a routerLink="/your-trip" fragment="where-to-drink">Where to drink</a>
+        </li>
+        <li>
+          <a routerLink="/your-trip" fragment="a-costa-da-morte">A Costa da Morte</a>
         </li>
       </ul>
+    </li>
+    <li>
+      <a routerLink="/contact" routerLinkActive="active">Contact us</a>
     </li>
   </ul>
 </div>
