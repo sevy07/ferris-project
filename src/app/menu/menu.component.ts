@@ -10,8 +10,7 @@ export class MenuComponent implements OnInit {
 
 
 
-  private menuState: boolean;
-  private targetElement: any;
+  menuState: boolean;
 
   public menuList: any[] = [
     { 'title': 'Home', 'link': '#' },
@@ -39,19 +38,19 @@ export class MenuComponent implements OnInit {
     this.menuState = false;
   }
 
-  private menuToggle() {
+  menuToggle() {
     this.menuState = !this.menuState;
   }
 
-  private closeMenu() {
+  closeMenu() {
     this.menuState = false;
   }
 
-  private onItemClick(item: any) {
+  onItemClick(item: any) {
     // alert(item);
   }
 
-  private toggleSubMenu(item: any) {
+  toggleSubMenu(item: any) {
     item.expand = !item.expand;
   }
 
