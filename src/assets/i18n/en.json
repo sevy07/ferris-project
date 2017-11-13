@@ -97,7 +97,38 @@
       "BIEITO": "“Smart” for all the technical gadgets available in the rooms; “literary” for its Galician literature theme. Comfortable rooms in a converted16th century building. Located in the Old Town.",
       "SAN-MIGUEL": "Ideal spot for travellers, nestled in the heart of the Old Town.",
       "OTHERS": "Other options (also located in the Old Town and minutes away from the venue):"
+    },
+    "EAT":{
+      "TITLE": "WHERE TO EAT",
+      "DESCRIPTION-START": "The",
+      "DESCRIPTION-ONE": "around the Cathedral are full of restaurants and bars where you can enjoy delicious Galician tapas such as",
+      "DESCRIPTION-TWO": "(octopus),",
+      "DESCRIPTION-THREE": "... with a glass of Albariño or Ribeiro or a",
+      "DESCRIPTION-FOUR": "of Estrella Galicia, our local beer. Here are some recommendations:",
+      "RESTO-ONE":"Traditional Galician tapas. Booking in advance is highly recommended.",
+      "TITA-START": "Their Spanish",
+      "TITA-END": "is very popular.",
+      "ABASTOS": "Original and busy marketside eatery.",
+      "OTHERS": "Other options:",
+      "NO-TAPAS": "And if tapas are not your thing, here are a few restaurants we really like:",
+      "CURRO": "Galician fine and creative cuisine.",
+      "SENDEIRO": "Galician food experience.",
+      "ALTAMIRA": "Seasonal Galician dishes with a contemporary twist.",
+      "LAST-RESTO": "Other options:"
+    },
+    "DRINK": {
+      "TITLE": "WHERE TO DRINK",
+      "DETAILS-ONE": "Anywhere. Santiago is full of tiny bars and terraces where you can enjoy some wine or beer. We recommend a wine route (or pub crawl) called “París-Dakar” along two of the",
+      "DETAILS-TWO": "in the Old Town: Rúa do Franco and Rúa da Raíña. It has nothing to do with cars or raids though! There are two bars in Santiago called the París and the Dakar. You must begin your route at the París and drink a glass of wine in each of the bars on that street until you reach the last one, the Dakar. In most places you can sip wine from Galician old-fashioned bowls called",
+      "DETAILS-THREE": ", as you can see on the picture:",
+      "RECOMMENDED": "If you are looking for a nice bar, we recommend:"
+    },
+    "COSTA": {
+      "TITLE": "A COSTA DA MORTE",
+      "INTRO": "And if you decide to stay in Galicia for a few more days you can visit other Galician cities such as A Coruña, Pontevedra... or head towards the Death Coast!",
+      "DETAILS": "You can visit the Land's End (the Cape Finisterre), the Virxe da Barca Sanctuary in Muxía, enjoy a drink with a view in Lires, walk along Carnota's beach or find the hidden waterfall in Ézaro.",
+      "CONTACT": "Do not hesitate to contact us if you have any questions, we’ll be happy to help!",
+      "ENJOY": "We really hope you enjoy your trip and we look forward to seeing all of your pictures!"
     }
   }
-
 }

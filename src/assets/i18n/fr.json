@@ -4,7 +4,7 @@
   "HOME": {
     "TITLE": "ON SE MARIE !",
     "DETAILS": "Et nous sommes très heureux de pouvoir partager cette expérience avec vous ! Si vous voulez en savoir plus sur notre histoire, sur la demande en mariage à Liverpool et, bien sûr, si vous voulez connaître tous les détails concernant notre mariage et votre prochain voyage en Galice, vous êtes au bon endroit !",
-    "SEE-YOU": "À très vite! :)"
+    "SEE-YOU": "À très vite ! :)"
   },
 
   "COUNT-DOWN": {
@@ -97,6 +97,38 @@
       "BIEITO": "“Smart” à cause des gadgets électroniques disponibles dans les chambres; “littéraire” à cause de sa thématique, la littérature galicienne. Chambres confortables dans un bâtiment du XVIème siècle restauré. Il se trouve dans la vieille ville.",
       "SAN-MIGUEL": "Logement idéal pour les voyageurs, situé au cœur de la vieille ville.",
       "OTHERS": "D’autres options (qui se trouvent aussi dans la vieille ville, à quelques minutes de l’endroit du mariage) :"
+    },
+    "EAT": {
+      "TITLE": "OÙ MANGER",
+      "DESCRIPTION-START": "Dans les",
+      "DESCRIPTION-ONE": "autour de la Cathédrale il y a plein de restaurants et de bars où on peut déguster de délicieuses tapas galiciennes comme le",
+      "DESCRIPTION-TWO": ",",
+      "DESCRIPTION-THREE": "... avec un verre de vin Albariño ou Ribeiro ou une",
+      "DESCRIPTION-FOUR": "d’Estrella Galicia, notre bière locale. Voici quelques recommandations :",
+      "RESTO-ONE": "Tapas galiciennes traditionnelles. Il est recommandé de réserver à l’avance.",
+      "TITA-START": "Leur",
+      "TITA-END": "ou omelette espagnole est très célèbre.",
+      "ABASTOS": "Restaurant original et très fréquenté à côté du marché.",
+      "OTHERS": "Autres bonnes adresses :",
+      "NO-TAPAS": "Et si les tapas ne sont pas votre truc, voici quelques-uns de nos restaurants favoris :",
+      "CURRO": "Cuisine galicienne raffinée et créative.",
+      "SENDEIRO": "Expérience gastronomique galicienne.",
+      "ALTAMIRA": "Cuisine galicienne de saison avec un twist contemporain.",
+      "LAST-RESTO": "Autres bonnes adresses :"
+    },
+    "DRINK": {
+      "TITLE": "OÙ BOIRE UN VERRE",
+      "DETAILS-ONE": "Partout. Santiago a plein de petits bars et terrasses où on peut profiter d’un verre de vin ou d’une bière. Nous vous conseillons d’essayer le barathon “París-Dakar”, dans deux",
+      "DETAILS-TWO": "de la vieille ville: Rúa do Franco et Rúa da Raíña. Ça n’a rien à voir avec les rallyes par contre ! Il y a deux bars à Saint-Jacques qui s’appellent le París et le Dakar. Il faut commencer la route par le París et boire un verre de vin dans chaque bar de cette rue jusqu’à-ce qu’on arrive dans le dernier, le Dakar. Dans la plupart des endroits on peut boire du vin dans une petite tasse traditionnelle qui s’appelle",
+      "DETAILS-THREE": ", comme vous pouvez le voir dans l’image ci-dessous:",
+      "RECOMMENDED": "Si vous cherchez une adresse sympa, on vous conseille:"
+    },
+    "COSTA": {
+      "TITLE": "A COSTA DA MORTE",
+      "INTRO": "Et si vous choisissez de rester en Galice pour quelques jours de plus, vous pouvez visiter d’autres villes galiciennes comme La Corogne, Pontevedra… ou vous pouvez vous diriger vers la Côte de la Mort !",
+      "DETAILS": "Vous pouvez visiter la “Fin de la Terre” (le Cap Finisterre), le sanctuaire de Notre-Dame de la Barque à Muxía, profiter d’un verre avec une jolie vue à Lires, vous promener tout au long de la plage de Carnota ou chercher la magnifique cascade d’Ézaro.",
+      "CONTACT": "N’hésitez pas à nous contacter si vous avez des questions, nous serons très heureux de vous aider !",
+      "ENJOY": "Nous espérons que vous profiterez de votre voyage. Nous sommes impatients de voir toutes vos photos !"
     }
   }
 }

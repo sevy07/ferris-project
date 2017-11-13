@@ -97,6 +97,38 @@
       "BIEITO": "“Smart” por todos los gadgets tecnológicos disponibles en las habitaciones; “literario” por su temática centrada en la literatura gallega. Habitaciones cómodas y relativamente espaciosas en un edificio restaurado del siglo XVI. Ubicado en el casco histórico.",
       "SAN-MIGUEL": "Ideal para los viajeros y ubicado en el corazón del casco antiguo.",
       "OTHERS": "Otras opciones (situadas también en el casco antiguo y a sólo unos minutos de San Francisco):"
+    },
+    "EAT": {
+      "TITLE": "DÓNDE COMER",
+      "DESCRIPTION-START": "En las",
+      "DESCRIPTION-ONE": "que rodean la catedral hay multitud de restaurantes y bares en los que podéis disfrutar de deliciosas tapas gallegas como",
+      "DESCRIPTION-TWO": ",",
+      "DESCRIPTION-THREE": "... regadas con una copa de Albariño o Ribeiro o una",
+      "DESCRIPTION-FOUR": "de Estrella Galicia, la cerveza local. Aquí os dejamos algunas recomendaciones:",
+      "RESTO-ONE": "Tapas gallegas tradicionales. Recomendamos reservar con antelación.",
+      "TITA-START": "La",
+      "TITA-END": "española más famosa de Santiago.",
+      "ABASTOS": "Restaurante original y muy concurrido al lado del mercado.",
+      "OTHERS": "Otras opciones:",
+      "NO-TAPAS": "Y si el tapeo no es lo vuestro, aquí os hablamos de los restaurantes que más nos gustan:",
+      "CURRO": "Cocina gallega creativa.",
+      "SENDEIRO": "Experiencia gastronómica gallega.",
+      "ALTAMIRA": "Platos gallegos con un toque contemporáneo.",
+      "LAST-RESTO": "Otras opciones:"
+    },
+    "DRINK": {
+      "TITLE": "DÓNDE BEBER",
+      "DETAILS-ONE": "En cualquier parte. Santiago está lleno de bares y terrazas en los que podéis disfrutar de unos vinos o unas cañas. Recomendamos la ruta de vinos “París-Dakar” en dos de las",
+      "DETAILS-TWO": "del casco histórico: Rúa do Franco y Rúa da Raíña. ¡Pero que conste que no tiene nada que ver con el rally!  En Santiago hay dos bares que se llaman el París y el Dakar. Hay que empezar la ruta en el París y beber un vino en cada uno de los bares de esa calle hasta llegar al último, el Dakar. En la mayor parte de los sitios podéis beber vino en las",
+      "DETAILS-THREE": "o tacitas tradicionales gallegas, como podéis ver en la imagen:",
+      "RECOMMENDED": "Y si buscáis algún bar que esté bien, recomendamos los siguientes:"
+    },
+    "COSTA": {
+      "TITLE": "A COSTA DA MORTE",
+      "INTRO": "Si decidís quedaros en Galicia unos días más, podéis visitar otras ciudades gallegas como A Coruña, Pontevedra... ¡o explorar la Costa da Morte!",
+      "DETAILS": "Podéis visitar el “Fin de la Tierra” (el cabo Fisterra), el Santuario de la Barca en Muxía, tomar algo con una vista magnifica en Lires, recorrer la playa de Carnota o visitar la escondida cascada del Ézaro.",
+      "CONTACT": "No dudéis en poneros en contacto si tenéis alguna pregunta. ¡Estaremos encantados de seros de ayuda!",
+      "ENJOY": "Disfrutad mucho de vuestro viaje… ¡Estamos deseando ver todas vuestras fotos!"
     }
   }
 }
