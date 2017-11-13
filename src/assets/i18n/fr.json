@@ -45,7 +45,7 @@
   "WEDDING-DAY": {
     "TITLE": "LE JOUR “M”",
     "CEREMONY": {
-      "TITLE": "CEREMONIE",
+      "TITLE": "CÉRÉMONIE",
       "DETAILS-CEREMONY": "La cérémonie sera célébré le",
       "DETAILS-DATE": "samedi 25 août 2018 ",
       "DETAILS-TIME": "à",
@@ -92,19 +92,19 @@
       "LUCIS": "Il y a beaucoup d’autres chambres d’hôtes et auberges comme"
     },
     "LIKE": {
-      "TITLE": "NOS HOTELS PREFERES",
-      "ALTAMIRA": "Design fonctionnel et contemporain au cœur de la vieille ville. À quelques minutes à pied de de San Francisco.",
+      "TITLE": "NOS HOTELS PRÉFÉRÉS :",
+      "ALTAMIRA": "Design fonctionnel et contemporain au cœur de la vieille ville. À quelques minutes à pied de San Francisco.",
       "BIEITO": "“Smart” à cause des gadgets électroniques disponibles dans les chambres; “littéraire” à cause de sa thématique, la littérature galicienne. Chambres confortables dans un bâtiment du XVIème siècle restauré. Il se trouve dans la vieille ville.",
       "SAN-MIGUEL": "Logement idéal pour les voyageurs, situé au cœur de la vieille ville.",
       "OTHERS": "D’autres options (qui se trouvent aussi dans la vieille ville, à quelques minutes de l’endroit du mariage) :"
     },
     "EAT": {
       "TITLE": "OÙ MANGER",
-      "DESCRIPTION-START": "Dans les",
-      "DESCRIPTION-ONE": "autour de la Cathédrale il y a plein de restaurants et de bars où on peut déguster de délicieuses tapas galiciennes comme le",
-      "DESCRIPTION-TWO": ",",
-      "DESCRIPTION-THREE": "... avec un verre de vin Albariño ou Ribeiro ou une",
-      "DESCRIPTION-FOUR": "d’Estrella Galicia, notre bière locale. Voici quelques recommandations :",
+      "DESCRIPTION-START": "Dans les ",
+      "DESCRIPTION-ONE": " autour de la Cathédrale il y a plein de restaurants et de bars où on peut déguster de délicieuses tapas galiciennes comme : ",
+      "DESCRIPTION-TWO": ", ",
+      "DESCRIPTION-THREE": "... avec un verre de vin Albariño ou Ribeiro ou une ",
+      "DESCRIPTION-FOUR": " d’Estrella Galicia, notre bière locale. Voici quelques recommandations :",
       "RESTO-ONE": "Tapas galiciennes traditionnelles. Il est recommandé de réserver à l’avance.",
       "TITA-START": "Leur",
       "TITA-END": "ou omelette espagnole est très célèbre.",
@@ -136,5 +136,54 @@
     "TITLE": "CONTACT",
     "DETAILS": "Si vous avez des questions ou suggestions ou si vous voulez confirmer que vous viendrez au mariage (bien sûr que vous viendrez !!!), envoyez-nous un message :",
     "BUTTON-LABEL": "Email"
+  },
+
+  "MENU": {
+    "HOME": "Accueil",
+    "OUR-STORY": "Notre histoire",
+    "PROPOSAL": "La demande",
+    "BIG-DAY": "Le jour \"M\"",
+    "TRIP": "Santiago",
+    "GETTING": "Le trajet",
+    "SLEEP": "Où dormir",
+    "EAT": "Où manger",
+    "DRINK": "Où boire un verre",
+    "COSTA": "A Costa da Morte",
+    "CONTACT": "Contact"
+  },
+
+  "POLAROIDS": {
+    "EDINBURGH": "Édimbourg",
+    "EDINBURGH-EX": "Édimbourg !",
+    "HALLOWEEN": "Halloween",
+    "SANTIAGO": "Saint-Jacques",
+    "PARIS": "Paris",
+    "TOULOUSE": "Toulouse",
+    "MADRID": "Madrid",
+    "ROME": "Rome",
+    "HERIOT-WATT": "Heriot-Watt",
+    "LONDON": "Londres",
+    "NEW-YORK": "New York",
+    "AMSTERDAM": "Amsterdam",
+    "STOCKHOLM": "Stockholm",
+    "VIZILLE": "Vizille",
+    "PRAGUE": "Prague",
+    "ROADTRIP": "En voyage !",
+    "WALES": "Pays de Galles",
+    "BARMOUTH": "Barmouth",
+    "LANDSCAPE": "Paysages",
+    "CAERNARFON": "Caernarfon",
+    "FRIEND": "Nouveau copain",
+    "JOHN": "John !",
+    "FERRIS": "La Grande Roue",
+    "ENGAGED": "Fiancééés !!!",
+    "EMPANADA": "Empanada",
+    "TORTILLA": "Tortilla & caña",
+    "PULPO": "Pulpo",
+    "DESSERT": "Le dessert",
+    "SALMONETE": "Salmonete",
+    "CAPE": "Cap Finisterre",
+    "MUXIA": "Muxía",
+    "EZARO": "Ézaro"
   }
 }

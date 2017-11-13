@@ -1,42 +1,66 @@
 <div class="menu-container" [ngClass]="{'show-menu': menuState, 'hide-menu': !menuState}">
   <ul>
     <li>
-      <a routerLink="/home" routerLinkActive="active">Home</a>
-    </li>
-    <li>
-      <a routerLink="/our-story" routerLinkActive="active">Our story</a>
-    </li>
-    <li>
-      <a routerLink="/proposal" routerLinkActive="active">The proposal</a>
-    </li>
-    <li>
-      <a routerLink="/wedding-day" routerLinkActive="active">The big day</a>
-    </li>
-    <li>
-      <a (click)="toggleSubMenu()">
-        Your trip to Santiago
-        <i class="fa" [ngClass]="{'fa-angle-up': expand, 'fa-angle-down': !expand}"></i>
+      <a routerLink="/home" routerLinkActive="active">
+        {{ 'MENU.HOME' | translate }}
       </a>
+    </li>
+    <li>
+      <a routerLink="/our-story" routerLinkActive="active">
+        {{ 'MENU.OUR-STORY' | translate }}
+      </a>
+    </li>
+    <li>
+      <a routerLink="/proposal" routerLinkActive="active">
+        {{ 'MENU.PROPOSAL' | translate }}
+      </a>
+    </li>
+    <li>
+      <a routerLink="/wedding-day" routerLinkActive="active">
+        {{ 'MENU.BIG-DAY' | translate }}
+      </a>
+    </li>
+    <li>
+      <span class="santiago-link" [ngClass]="{'last-li': !expand, 'active': yourTripSelected}">
+        <a routerLink="/your-trip">
+          {{ 'MENU.TRIP' | translate }}
+        </a>
+        <button class="santiago-toggle" (click)="toggleSubMenu()">
+          <i class="fa" [ngClass]="{'fa-angle-up': expand, 'fa-angle-down': !expand}"></i>
+        </button>
+      </span>
       <ul class="sub-menu" [hidden]="!expand">
         <li>
-          <a routerLink="/your-trip" fragment="getting-there">Getting there</a>
+          <a routerLink="/your-trip" fragment="getting-there">
+            {{ 'MENU.GETTING' | translate }}
+          </a>
         </li>
         <li>
-          <a routerLink="/your-trip" fragment="where-to-sleep">Where to sleep</a>
+          <a routerLink="/your-trip" fragment="where-to-sleep">
+            {{ 'MENU.SLEEP' | translate }}
+          </a>
         </li>
         <li>
-          <a routerLink="/your-trip" fragment="where-to-eat">Where to eat</a>
+          <a routerLink="/your-trip" fragment="where-to-eat">
+            {{ 'MENU.EAT' | translate }}
+          </a>
         </li>
         <li>
-          <a routerLink="/your-trip" fragment="where-to-drink">Where to drink</a>
+          <a routerLink="/your-trip" fragment="where-to-drink">
+            {{ 'MENU.DRINK' | translate }}
+          </a>
         </li>
-        <li>
-          <a routerLink="/your-trip" fragment="a-costa-da-morte">A Costa da Morte</a>
+        <li class="last-li">
+          <a routerLink="/your-trip" fragment="a-costa-da-morte">
+            {{ 'MENU.COSTA' | translate }}
+          </a>
         </li>
       </ul>
     </li>
     <li>
-      <a routerLink="/contact" routerLinkActive="active">Contact us</a>
+      <a routerLink="/contact" routerLinkActive="active">
+        {{ 'MENU.CONTACT' | translate }}
+      </a>
     </li>
   </ul>
 </div>

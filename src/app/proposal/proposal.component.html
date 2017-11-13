@@ -22,19 +22,26 @@
       </p>
 
       <div class="polaroid-images">
-        <span class="rotate-minus-four" title="Roadtrip"><img src="/assets/images/proposal-car.png" alt="Roadtrip" title="Roadtrip"/></span>
-        <span class="rotate-plus-four" title="Wales"><img src="/assets/images/proposal-maria-wild.png" alt="Wales" title="Wales"/></span>
-        <span class="rotate-plus-four" title="Barmouth"><img src="/assets/images/proposal-barmouth.png" alt="Barmouth" title="Barmouth"/></span>
-        <span class="rotate-minus-four" title="Landscape"><img src="/assets/images/proposal-forest.png" alt="Landscape" title="Landscape"/></span>
+        <span class="rotate-minus-four" title="{{ 'POLAROIDS.ROADTRIP' | translate }}"><img src="/assets/images/proposal-car.png" alt="Roadtrip" title="Roadtrip"/></span>
+        <span class="rotate-plus-four" title="{{ 'POLAROIDS.WALES' | translate }}"><img src="/assets/images/proposal-maria-wild.png" alt="Wales" title="Wales"/></span>
+        <span class="rotate-plus-four" title="{{ 'POLAROIDS.BARMOUTH' | translate }}"><img src="/assets/images/proposal-barmouth.png" alt="Barmouth" title="Barmouth"/></span>
+        <span class="rotate-minus-four" title="{{ 'POLAROIDS.LANDSCAPE' | translate }}"><img src="/assets/images/proposal-forest.png" alt="Landscape" title="Landscape"/></span>
       </div>
 
-      <p>
+      <p *ngIf="translate.currentLang === 'es'; else otherLanguages">
         {{ 'PROPOSAL.ROAD-TRIP' | translate }}
+        <span class="italic-text">{{ 'PROPOSAL.ROAD-TRIP-TWO' | translate }}</span>
+        {{ 'PROPOSAL.ROAD-TRIP-THREE' | translate }}
       </p>
+      <ng-template #otherLanguages>
+        <p>
+          {{ 'PROPOSAL.ROAD-TRIP' | translate }}
+        </p>
+      </ng-template>
 
       <div class="polaroid-images">
-        <span class="rotate-minus-four" title="Caernarfon"><img src="/assets/images/proposal-caernarfon.png" alt="Caernarfon" title="Caernarfon"/></span>
-        <span class="rotate-plus-four" title="Little friend"><img src="/assets/images/proposal-seagull.png" alt="Little friend" title="Little friendWales"/></span>
+        <span class="rotate-minus-four" title="{{ 'POLAROIDS.CAERNARFON' | translate }}"><img src="/assets/images/proposal-caernarfon.png" alt="Caernarfon" title="Caernarfon"/></span>
+        <span class="rotate-plus-four" title="{{ 'POLAROIDS.FRIEND' | translate }}"><img src="/assets/images/proposal-seagull.png" alt="Little friend" title="Little friendWales"/></span>
       </div>
 
       <p>
@@ -46,7 +53,7 @@
       </p>
 
       <div class="polaroid-images">
-        <span class="rotate-minus-four" title="John!"><img src="/assets/images/proposal-john.png" alt="John!" title="John!"/></span>
+        <span class="rotate-minus-four" title="{{ 'POLAROIDS.JOHN' | translate }}"><img src="/assets/images/proposal-john.png" alt="John!" title="John!"/></span>
       </div>
 
       <p>
@@ -54,7 +61,7 @@
       </p>
 
       <div class="polaroid-images">
-        <span class="rotate-minus-four" title="Ferris wheel"><img src="/assets/images/proposal-wheel.png" alt="Ferris wheel" title="Ferris wheel"/></span>
+        <span class="rotate-minus-four" title="{{ 'POLAROIDS.FERRIS' | translate }}"><img src="/assets/images/proposal-wheel.png" alt="Ferris wheel" title="Ferris wheel"/></span>
       </div>
 
       <p>
@@ -62,7 +69,7 @@
       </p>
 
       <div class="polaroid-images">
-        <span class="rotate-plus-four" title="Engaaaged!!"><img src="/assets/images/proposal-engaged.png" alt="Ferris wheel" title="Ferris wheel"/></span>
+        <span class="rotate-plus-four" title="{{ 'POLAROIDS.ENGAGED' | translate }}"><img src="/assets/images/proposal-engaged.png" alt="Ferris wheel" title="Ferris wheel"/></span>
       </div>
 
       <p>

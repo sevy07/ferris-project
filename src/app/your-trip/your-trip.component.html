@@ -31,9 +31,15 @@
         {{ 'YOUR-TRIP.GETTING-THERE.AIRPORT' | translate }}
       </p>
 
-      <p>
-        {{ 'YOUR-TRIP.GETTING-THERE.CORUNA' | translate }}
+      <p *ngIf="translate.currentLang === 'es'; else otherLanguages">
+        {{ 'YOUR-TRIP.GETTING-THERE.CORUNA' | translate }}<span class="italic-text">FORZA</span>
+        {{ 'YOUR-TRIP.GETTING-THERE.CORUNA-TWO' | translate }}
       </p>
+      <ng-template #otherLanguages>
+        <p>
+          {{ 'YOUR-TRIP.GETTING-THERE.CORUNA' | translate }}
+        </p>
+      </ng-template>
 
       <p>
         {{ 'YOUR-TRIP.GETTING-THERE.PORTO' | translate }} 
@@ -130,14 +136,7 @@
       </h2>
 
       <p>
-        {{ 'YOUR-TRIP.EAT.DESCRIPTION-START' | translate }}
-        <span class="italic-text">rúas</span>
-        {{ 'YOUR-TRIP.EAT.DESCRIPTION-ONE' | translate }}
-        <span class="italic-text">pulpo</span>
-        {{ 'YOUR-TRIP.EAT.DESCRIPTION-TWO' | translate }}
-        <span class="italic-text">empanada</span>, <span class="italic-text">tortilla</span>{{ 'YOUR-TRIP.EAT.DESCRIPTION-THREE' | translate }}
-        <span class="italic-text">caña</span>
-        {{ 'YOUR-TRIP.EAT.DESCRIPTION-FOUR' | translate }}
+        {{ 'YOUR-TRIP.EAT.DESCRIPTION-START' | translate }}<span class="italic-text">rúas</span>{{ 'YOUR-TRIP.EAT.DESCRIPTION-ONE' | translate }}<span class="italic-text">pulpo</span>{{ 'YOUR-TRIP.EAT.DESCRIPTION-TWO' | translate }}<span class="italic-text">empanada</span>, <span class="italic-text">tortilla</span>{{ 'YOUR-TRIP.EAT.DESCRIPTION-THREE' | translate }}<span class="italic-text">caña</span>{{ 'YOUR-TRIP.EAT.DESCRIPTION-FOUR' | translate }}
       </p>
 
       <p>
@@ -171,13 +170,13 @@
       </ul>
 
       <div class="polaroid-images">
-        <span class="rotate-minus-four" title="Empanada">
+        <span class="rotate-minus-four" title="{{ 'POLAROIDS.EMPANADA' | translate }}">
           <img src="/assets/images/trip-santiago-empanada.jpg" alt="Empanada" title="Empanada" />
         </span>
-        <span class="rotate-plus-four" title="Tortilla & caña">
+        <span class="rotate-plus-four" title="{{ 'POLAROIDS.TORTILLA' | translate }}">
           <img src="/assets/images/trip-santiago-tortilla.jpg" alt="Tortilla & caña" title="Tortilla & caña" />
         </span>
-        <span class="rotate-minus-four" title="Pulpo">
+        <span class="rotate-minus-four" title="{{ 'POLAROIDS.PULPO' | translate }}">
           <img src="/assets/images/trip-santiago-pulpo.jpg" alt="Pulpo" title="Pulpo" />
         </span>
       </div>
@@ -215,10 +214,10 @@
       </ul>
 
       <div class="polaroid-images">
-        <span class="rotate-plus-four" title="Dessert">
+        <span class="rotate-plus-four" title="{{ 'POLAROIDS.DESSERT' | translate }}">
           <img src="/assets/images/trip-santiago-dessert.jpg" alt="Dessert" title="Dessert" />
         </span>
-        <span class="rotate-minus-four" title="Salmonete">
+        <span class="rotate-minus-four" title="{{ 'POLAROIDS.SALMONETE' | translate }}">
           <img src="/assets/images/trip-santiago-salmonete.jpg" alt="Salmonete" title="Salmonete" />
         </span>
       </div>
@@ -231,8 +230,7 @@
         {{ 'YOUR-TRIP.DRINK.DETAILS-ONE' | translate }}
         <span class="italic-text">rúas</span>
         {{ 'YOUR-TRIP.DRINK.DETAILS-TWO' | translate }}
-        <span class="italic-text">cuncas</span>
-        {{ 'YOUR-TRIP.DRINK.DETAILS-THREE' | translate }}
+        <span class="italic-text">cuncas</span>{{ 'YOUR-TRIP.DRINK.DETAILS-THREE' | translate }}
       </p>
 
       <img class="img-standalone santiago" src="/assets/images/trip-santiago-cunca.jpg" />
@@ -275,13 +273,13 @@
       </p>
 
       <div class="polaroid-images">
-        <span class="rotate-minus-four" title="Cape Finisterre">
+        <span class="rotate-minus-four" title="{{ 'POLAROIDS.CAPE' | translate }}">
           <img src="/assets/images/costa-da-morte-finisterre.jpg" alt="Cape Finisterre" title="Cape Finisterre" />
         </span>
-        <span class="rotate-plus-four" title="Muxía">
+        <span class="rotate-plus-four" title="{{ 'POLAROIDS.MUXIA' | translate }}">
           <img src="/assets/images/costa-da-morte-muxia.jpg" alt="Muxía" title="Muxía" />
         </span>
-        <span class="rotate-minus-four" title="Ézaro">
+        <span class="rotate-minus-four" title="{{ 'POLAROIDS.EZARO' | translate }}">
           <img src="/assets/images/costa-da-morte-ezaro.jpg" alt="Ézaro" title="Ézaro" />
         </span>
       </div>
