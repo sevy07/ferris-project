@@ -130,5 +130,11 @@
       "CONTACT": "No dudéis en poneros en contacto si tenéis alguna pregunta. ¡Estaremos encantados de seros de ayuda!",
       "ENJOY": "Disfrutad mucho de vuestro viaje… ¡Estamos deseando ver todas vuestras fotos!"
     }
+  },
+
+  "CONTACT": {
+    "TITLE": "CONTACTAR",
+    "DETAILS": "Si tenéis alguna pregunta o sugerencia o si queréis confirmar vuestra asistencia a la boda, podéis enviarnos un mensaje:",
+    "BUTTON-LABEL": "Enviar email"
   }
 }

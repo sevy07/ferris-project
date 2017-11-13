@@ -130,5 +130,11 @@
       "CONTACT": "N’hésitez pas à nous contacter si vous avez des questions, nous serons très heureux de vous aider !",
       "ENJOY": "Nous espérons que vous profiterez de votre voyage. Nous sommes impatients de voir toutes vos photos !"
     }
+  },
+
+  "CONTACT": {
+    "TITLE": "CONTACT",
+    "DETAILS": "Si vous avez des questions ou suggestions ou si vous voulez confirmer que vous viendrez au mariage (bien sûr que vous viendrez !!!), envoyez-nous un message :",
+    "BUTTON-LABEL": "Email"
   }
 }
