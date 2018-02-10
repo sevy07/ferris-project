@@ -3,6 +3,8 @@ import { ActivatedRoute } from '@angular/router';
 
 import { Observable } from 'rxjs/Observable';
 
+import 'rxjs/add/operator/map';
+
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',

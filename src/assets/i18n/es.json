@@ -86,7 +86,7 @@
       "FRANCISCO-DETAILS": "Es un antiguo convento restaurado con muy buen gusto, y los invitados pueden disfrutar de un descuento si deciden alojarse en el hotel. Si os interesa reservar una habitación, lo mejor es que os pongáis en contacto con nosotros para que podamos bloquearla. Luego habría que formalizar la reserva al menos un mes antes del enlace",
       "FRANCISCO-LET-KNOW": "haciendo referencia a nuestra boda.",
       "FRANCISCO-PRICE": "El precio final de cada habitación con el descuento sería de 116 € la noche.",
-      "SMALL": "Ahora bien, Santiago es una ciudad pequeña y la boda será en el centro, así que hay muchas más opciones de alojamiento (y la mayoría más abordables) a sólo unos minutos de San Francisco.",
+      "SMALL": "Ahora bien, Santiago es una ciudad pequeña y la boda será en el centro, así que hay muchas más opciones de alojamiento (y la mayoría más asequibles) a sólo unos minutos de San Francisco.",
       "SUGGESTION": "Aquí tenéis unas cuantas sugerencias para viajeros con distintos presupuestos."
     },
     "BUDGET": {
@@ -135,6 +135,18 @@
     }
   },
 
+  "GIFTS": {
+    "TITLE": "REGALOS",
+    "DETAILS": "Si queréis ayudarnos en esta aventura os facilitamos nuestros datos bancarios. Haced clic a continuación:",
+    "UK-TITLE": "Cuenta británica",
+    "FR-TITLE": "Cuenta francesa",
+    "ES-TITLE": "Cuenta española",
+    "HOLDER": "Titular",
+    "SORT-CODE": "Código de agencia",
+    "NUMBER": "Número de cuenta",
+    "THANKS": "¡¡¡Muchísimas gracias!!!"
+  },
+
   "CONTACT": {
     "TITLE": "CONTACTAR",
     "DETAILS": "Si tenéis alguna pregunta o sugerencia o si queréis confirmar vuestra asistencia a la boda, podéis enviarnos un mensaje:",
@@ -145,13 +157,14 @@
     "HOME": "Nos casamos",
     "OUR-STORY": "Nuestra historia",
     "PROPOSAL": "La pedida",
-    "BIG-DAY": "El dia \"B\"",
+    "BIG-DAY": "El día \"B\"",
     "TRIP": "Santiago",
     "GETTING": "Cómo llegar",
     "SLEEP": "Dónde dormir",
     "EAT": "Dónde comer",
     "DRINK": "Dónde beber",
     "COSTA": "A Costa da Morte",
+    "GIFTS": "Regalos",
     "CONTACT": "Contactar"
   },
 

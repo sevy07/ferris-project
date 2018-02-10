@@ -132,6 +132,18 @@
     }
   },
 
+  "GIFTS": {
+    "TITLE": "CADEAUX",
+    "DETAILS": "Si vous souhaitez nous aider dans cette aventure, vous pourrez trouver nos coordonnées bancaires en cliquant ci-dessous :",
+    "UK-TITLE": "Compte anglais",
+    "FR-TITLE": "Compte français",
+    "ES-TITLE": "Compte espagnol",
+    "HOLDER": "Titulaire ",
+    "SORT-CODE": "Code d'agence ",
+    "NUMBER": "Numéro de compte",
+    "THANKS": "Merci beaucoup !!!"
+  },
+
   "CONTACT": {
     "TITLE": "CONTACT",
     "DETAILS": "Si vous avez des questions ou suggestions ou si vous voulez confirmer que vous viendrez au mariage (bien sûr que vous viendrez !!!), envoyez-nous un message :",
@@ -149,6 +161,7 @@
     "EAT": "Où manger",
     "DRINK": "Où boire un verre",
     "COSTA": "A Costa da Morte",
+    "GIFTS": "Cadeaux",
     "CONTACT": "Contact"
   },
 

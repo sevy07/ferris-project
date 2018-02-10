@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
+import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap/accordion/accordion.module';
+
 import { AppRoutingModule } from './app-routing/app-routing.module';
 
 import { AppComponent } from './app.component';
@@ -16,6 +18,7 @@ import { WeddingDayComponent } from './wedding-day/wedding-day.component';
 import { YourTripComponent } from './your-trip/your-trip.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { MenuComponent } from './menu/menu.component';
+import { GiftsComponent } from './gifts/gifts.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -33,12 +36,14 @@ export function HttpLoaderFactory(http: HttpClient) {
     WeddingDayComponent,
     YourTripComponent,
     ContactUsComponent,
-    MenuComponent
+    MenuComponent,
+    GiftsComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
+    NgbAccordionModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

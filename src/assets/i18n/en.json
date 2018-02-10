@@ -38,7 +38,7 @@
     "ROAD-TO-LIVERPOOL": "And they went to Liverpool indeed. It was one of María's favourite places, as it was the city of the Beatles and she had been there previously, visiting the Cavern and seeing a Paul McCartney concert. It was also a very special place for both of them, as they had been there together at the very beginning of their relationship.",
     "LIVERPOOL": "They visited Mathew Street, where the John Lennon statue and the Cavern are, and then headed back to Albert Dock, where the car was parked. Jean-Yves suggested a ride on the ferris wheel, to remember their first time in Liverpool. It was very windy, but the wheel was working. Although it all looked like an improvised plan, it turned out J-Y had booked the wheel's luxury cabin, with champagne and chocolates!",
     "FERRIS": "I think you can guess the end (or should we say the beginning?) of this story. When they were on the ferris wheel, Jean-Yves bent the knee (just like Jon Snow!) and.... spoiler alert: María said YES!!!",
-    "NIGHT": "But that wasn't all: Jean-Yves had more surprises in store for María and the day was not over! He had booked the Paul McCartney suite at the Hard Day's Night Hotel, and a table at the amazing Panoramic34 restaurant! In the end, María found out she didn't really have an interpreting job the following day... J-Y had thought of every single detail!",
+    "NIGHT": "But that wasn't all: Jean-Yves had more surprises in store for María and the day was not over! He had booked the Paul McCartney suite at the Hard Day's Night Hotel, and a table at the amazing Panoramic 34 restaurant! In the end, María found out she didn't really have an interpreting job the following day... J-Y had thought of every single detail!",
     "CONCLUSION": "So... this is how this all started! It was a very exciting weekend and we're happy we'll soon have the chance to share one of the most important days of our lives with you all!"
   },
 
@@ -89,12 +89,12 @@
     "BUDGET":{
       "TITLE": "IF YOU ARE TRAVELLING ON A BUDGET:",
       "PINARIO": "It is just a couple of minutes’ walk from our wedding venue and from the Cathedral. The rooms are quite basic but ensuite, so you will have your own private bathroom, and the location is unbeatable. This place is VERY popular so we recommend booking as soon as possible.",
-      "LUCIS": "There are many other pensions and hostels such as"
+      "LUCIS": "There are many other guest houses and hostels such as"
     },
     "LIKE":{
       "TITLE":"SOME HOTELS WE LIKE:",
       "ALTAMIRA": "Functional and contemporary design in the heart of the Old Town. Just a few minutes away from our wedding venue.",
-      "BIEITO": "“Smart” for all the technical gadgets available in the rooms; “literary” for its Galician literature theme. Comfortable rooms in a converted16th century building. Located in the Old Town.",
+      "BIEITO": "“Smart” for all the technical gadgets available in the rooms; “literary” for its Galician literature theme. Comfortable rooms in a converted 16th century building. Located in the Old Town.",
       "SAN-MIGUEL": "Ideal spot for travellers, nestled in the heart of the Old Town.",
       "OTHERS": "Other options (also located in the Old Town and minutes away from the venue):"
     },
@@ -132,6 +132,18 @@
     }
   },
 
+  "GIFTS": {
+    "TITLE": "GIFTS",
+    "DETAILS": "If you would like to contribute towards our adventure, you can find our bank details here. Please click below:",
+    "UK-TITLE": "UK Account",
+    "FR-TITLE": "French Account",
+    "ES-TITLE": "Spanish Account",
+    "HOLDER": "Account holder",
+    "SORT-CODE": "Sort Code",
+    "NUMBER": "Account Number",
+    "THANKS": "Thank you so much!!!"
+  },
+
   "CONTACT":{
     "TITLE": "CONTACT US",
     "DETAILS": "If you have any questions, suggestions, or you want to let us know that you are coming to our wedding (of course you are coming to our wedding!!!), you can send us a message:",
@@ -149,6 +161,7 @@
     "EAT": "Where to eat",
     "DRINK": "Where to drink",
     "COSTA": "A Costa da Morte",
+    "GIFTS": "Gifts",
     "CONTACT": "Contact us"
   },
 

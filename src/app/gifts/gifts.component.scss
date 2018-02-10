@@ -1,0 +1,38 @@
+.gifts-background {
+  background-image: url("/assets/background/submarine-gifts-background.jpg");
+}
+
+:host /deep/ .card {
+  background-color: transparent;
+  border: 1px solid;
+  color: #374557;
+  margin: 0 7vw;
+
+  a {
+    color: #374557;
+  }
+}
+
+h1 {
+  padding: 5vh 0 2vh;
+}
+
+p {
+  margin: 3vh 0 5vh;
+}
+
+.mail-link {
+  text-align: center;
+
+  a {
+    padding: 1rem;
+    color: #374557;
+    border-radius: 12px;
+    border: 2px solid;
+  }
+}
+
+.thanks {
+  margin-top: 5vh;
+  text-align: center;
+}
