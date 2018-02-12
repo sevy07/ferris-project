@@ -21,6 +21,7 @@ import { MenuComponent } from './menu/menu.component';
 import { GiftsComponent } from './gifts/gifts.component';
 import { NewsComponent } from './news/news.component';
 import { NewsFlightComponent } from './news/_subComponents/news-flight/news-flight.component';
+import { NewsHoneymoonComponent } from './news/_subComponents/news-honeymoon/news-honeymoon.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -41,7 +42,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     MenuComponent,
     GiftsComponent,
     NewsComponent,
-    NewsFlightComponent
+    NewsFlightComponent,
+    NewsHoneymoonComponent
   ],
   imports: [
     BrowserModule,

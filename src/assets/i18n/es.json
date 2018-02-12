@@ -159,6 +159,9 @@
     "ARTICLES": {
       "ONE": {
         "TITLE": "Vuelos y alojamiento"
+      },
+      "TWO": {
+        "TITLE": "Luna de miel"
       }
     },
     "FLIGHT": {
@@ -169,6 +172,15 @@
       "MAIL-LABEL": "enviándonos un correo",
       "DETAILS-TWO": "si tenéis alguna pregunta relativa a los vuelos o al alojamiento. ¡Estaremos encantados de ayudaros!",
       "BYE": "Un saludo,",
+      "SIGNATURE": "María & Jean-Yves"
+    },
+    "HONEYMOON": {
+      "TITLE": "LUNA DE MIEL EN ISLA MAURICIO",
+      "DATE": "11 de febrero de 2018",
+      "WELCOME": "¡Hola a todos!",
+      "DETAILS-ONE": "¡Hemos reservado por fin nuestra luna de miel! No fue nada fácil, ya que septiembre no es la mejor época del año para visitar algunos de los destinos que teníamos en mente, pero vimos una serie de ofertas en Mauricio y nos enamoramos de la isla, sus paradisíacas playas y sus maravillosos hoteles.",
+      "DETAILS-TWO": "¡Qué ganas! ¿Qué opináis vosotros de nuestra elección?",
+      "BYE": "¡Hasta pronto!",
       "SIGNATURE": "María & Jean-Yves"
     }
   },

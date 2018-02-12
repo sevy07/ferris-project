@@ -156,8 +156,11 @@
     "ARTICLES": {
       "ONE": {
         "TITLE": "Vols et hébergement"
+      },
+      "TWO": {
+        "TITLE": "Lune de miel"
       }
-    },
+},
     "FLIGHT": {
       "TITLE": "Information importante regardant les vols et l'hébergement",
       "DATE": "10 février  2018",
@@ -166,6 +169,15 @@
       "MAIL-LABEL": "nous contacter par email",
       "DETAILS-TWO": "si vous avez des questions concernant les vols ou l'hébergement. Nous serons très heureux de vous aider !",
       "BYE": "À bientôt,",
+      "SIGNATURE": "María & Jean-Yves"
+    },
+    "HONEYMOON": {
+      "TITLE": "HONEYMOON IN MAURITIUS",
+      "DATE": "11 février 2018",
+      "WELCOME": "Bonjour à tous !",
+      "DETAILS-ONE": "Nous avons finalement réservé notre voyage de noces !  Ce n’était pas facile, vu que le mois de setembre n’est pas la meilleure période de l’année pour visiter quelques destinations que nous avions en tête, mais nous avons trouvé quelques offres à l’Île Maurice et nous sommes tombés amoureux de l’île, ses plages paradisiaques et ses merveilleux hôtels.",
+      "DETAILS-TWO": "On a trop hâte ! Que pensez-vous de notre choix de destination ?",
+      "BYE": "À bientôt !",
       "SIGNATURE": "María & Jean-Yves"
     }
   },
