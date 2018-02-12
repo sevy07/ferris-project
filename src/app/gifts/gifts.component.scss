@@ -1,5 +1,5 @@
 .gifts-background {
-  background-image: url("/assets/background/submarine-gifts-background.jpg");
+  background-image: url("/assets/background/pexels-gifts-background.jpeg");
 }
 
 :host /deep/ .card {
@@ -14,11 +14,11 @@
 }
 
 h1 {
-  padding: 5vh 0 2vh;
+  padding: 6vh 0 2vh;
 }
 
 p {
-  margin: 3vh 0 5vh;
+  margin: 2vh 0 5vh;
 }
 
 .mail-link {
@@ -35,4 +35,8 @@ p {
 .thanks {
   margin-top: 5vh;
   text-align: center;
+}
+
+.gifts-viewport {
+  min-height: 100vh;
 }

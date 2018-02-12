@@ -150,6 +150,26 @@
     "BUTTON-LABEL": "Email us"
   },
 
+  "NEWS": {
+    "TITLE": "NEWS",
+    "READ": "Read",
+    "ARTICLES":{
+      "ONE":{
+        "TITLE":"Flights and accommodation"
+      }
+    },
+    "FLIGHT": {
+      "TITLE": "Important update regarding flights and accommodation",
+      "DATE": "10th February 2018",
+      "WELCOME": "Dear friends and family,",
+      "DETAILS-ONE": "This is just to let you know that flight and hotel prices for August are increasing, so we strongly recommend that you book your trip as soon as possible! The budget hostel recommended on our site (San Martín Pinario) is no longer available on those dates. Please do not hesitate to",
+      "MAIL-LABEL": "contact us",
+      "DETAILS-TWO": "if you have any questions regarding accommodation and flights. We’ll be happy to help!",
+      "BYE": "Best wishes,",
+      "SIGNATURE": "María & Jean-Yves"
+    }
+  },
+
   "MENU":{
     "HOME": "Home",
     "OUR-STORY": "Our story",
@@ -162,7 +182,8 @@
     "DRINK": "Where to drink",
     "COSTA": "A Costa da Morte",
     "GIFTS": "Gifts",
-    "CONTACT": "Contact us"
+    "CONTACT": "Contact us",
+    "NEWS": "News"
   },
 
   "POLAROIDS": {

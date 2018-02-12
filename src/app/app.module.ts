@@ -19,6 +19,8 @@ import { YourTripComponent } from './your-trip/your-trip.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { MenuComponent } from './menu/menu.component';
 import { GiftsComponent } from './gifts/gifts.component';
+import { NewsComponent } from './news/news.component';
+import { NewsFlightComponent } from './news/_subComponents/news-flight/news-flight.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -37,7 +39,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     YourTripComponent,
     ContactUsComponent,
     MenuComponent,
-    GiftsComponent
+    GiftsComponent,
+    NewsComponent,
+    NewsFlightComponent
   ],
   imports: [
     BrowserModule,

@@ -129,7 +129,7 @@
     "COSTA": {
       "TITLE": "A COSTA DA MORTE",
       "INTRO": "Si decidís quedaros en Galicia unos días más, podéis visitar otras ciudades gallegas como A Coruña, Pontevedra... ¡o explorar la Costa da Morte!",
-      "DETAILS": "Podéis visitar el “Fin de la Tierra” (el cabo Fisterra), el Santuario de la Barca en Muxía, tomar algo con una vista magnifica en Lires, recorrer la playa de Carnota o visitar la escondida cascada del Ézaro.",
+      "DETAILS": "Podéis visitar el “Fin de la Tierra” (el cabo Fisterra), el Santuario de la Barca en Muxía, tomar algo con una vista magnífica en Lires, recorrer la playa de Carnota o visitar la escondida cascada del Ézaro.",
       "CONTACT": "No dudéis en poneros en contacto si tenéis alguna pregunta. ¡Estaremos encantados de seros de ayuda!",
       "ENJOY": "Disfrutad mucho de vuestro viaje… ¡Estamos deseando ver todas vuestras fotos!"
     }
@@ -153,6 +153,26 @@
     "BUTTON-LABEL": "Enviar email"
   },
 
+  "NEWS": {
+    "TITLE": "NOVEDADES",
+    "READ": "Leer",
+    "ARTICLES": {
+      "ONE": {
+        "TITLE": "Vuelos y alojamiento"
+      }
+    },
+    "FLIGHT": {
+      "TITLE": "Anuncio importante sobre vuelos y alojamiento",
+      "DATE": "10 de febrero de 2018",
+      "WELCOME": "Queridos familiares y amigos:",
+      "DETAILS-ONE": "Los precios de vuelos y hoteles para agosto están aumentando, ¡así que os recomendamos que reservéis vuestro viaje lo antes posible! La Hospedería San Martín Pinario, un hostal muy económico que recomendamos en nuestra página, ya no está disponible en esas fechas. No dudéis en poneros en contacto con nosotros",
+      "MAIL-LABEL": "enviándonos un correo",
+      "DETAILS-TWO": "si tenéis alguna pregunta relativa a los vuelos o al alojamiento. ¡Estaremos encantados de ayudaros!",
+      "BYE": "Un saludo,",
+      "SIGNATURE": "María & Jean-Yves"
+    }
+  },
+
   "MENU": {
     "HOME": "Nos casamos",
     "OUR-STORY": "Nuestra historia",
@@ -165,7 +185,8 @@
     "DRINK": "Dónde beber",
     "COSTA": "A Costa da Morte",
     "GIFTS": "Regalos",
-    "CONTACT": "Contactar"
+    "CONTACT": "Contactar",
+    "NEWS": "Novedades"
   },
 
   "POLAROIDS": {

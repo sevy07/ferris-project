@@ -1,0 +1,41 @@
+$border-radius: 6px;
+
+.news-background {
+  background-image: url("/assets/background/pexels-gifts-background.jpeg");
+}
+
+.news-card {
+  border-radius: $border-radius;
+  min-height: 35vh;
+  width: 40vw;
+  padding: 1rem;
+}
+
+.news-title {
+  margin-top: .5rem;
+}
+
+.news-date {
+  margin-top: .2rem;
+}
+
+img{
+  width: 100%;
+  border-radius: $border-radius;
+}
+
+p {
+  margin: 10vh 0;
+}
+
+.news-link {
+  text-align: center;
+  margin-top: 1rem;
+
+  a {
+    padding: .5rem;
+    color: #374557;
+    border-radius: 12px;
+    border: 2px solid;
+  }
+}

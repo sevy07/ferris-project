@@ -1,57 +1,54 @@
-<div class="full-image-container full-viewport gifts-background">
+<div class="full-image-container gifts-viewport gifts-background">
 
   <app-menu></app-menu>
 
   <div class="padding-border">
-    <div class="white-bkgd">
 
-      <h1>
-        {{ 'GIFTS.TITLE' | translate }}
-      </h1>
+    <h1>
+      {{ 'GIFTS.TITLE' | translate }}
+    </h1>
 
-      <p>
-        {{ 'GIFTS.DETAILS' | translate }}
-      </p>
+    <p>
+      {{ 'GIFTS.DETAILS' | translate }}
+    </p>
 
-      <ngb-accordion [closeOthers]="true">
-        <ngb-panel id="static-1">
-          <ng-template ngbPanelTitle>
-            <span>{{ 'GIFTS.UK-TITLE' | translate }}</span>
-          </ng-template>
-          <ng-template ngbPanelContent>
-            <div>{{ 'GIFTS.HOLDER' | translate }}: Jean-Yves</div>
-            <div>{{ 'GIFTS.SORT-CODE' | translate }}: 77-72-62</div>
-            <div>{{ 'GIFTS.NUMBER' | translate }}: 01395868</div>
-            <div>IBAN: GB23 TSBS 777262 01395868</div>
-            <div>BIC: TSBSGB21437</div>
-          </ng-template>
-        </ngb-panel>
-        <ngb-panel id="static-2">
-          <ng-template ngbPanelTitle>
-            <span>{{ 'GIFTS.FR-TITLE' | translate }}</span>
-          </ng-template>
-          <ng-template ngbPanelContent>
-            <div>{{ 'GIFTS.HOLDER' | translate }}: Jean-Yves</div>
-            <div>IBAN: FR76 4061 8802 6700 0400 7315 557 </div>
-            <div>BIC: BOUSFRPPXXX</div>
-          </ng-template>
-        </ngb-panel>
-        <ngb-panel id="static-3">
-          <ng-template ngbPanelTitle>
-            <span>{{ 'GIFTS.ES-TITLE' | translate }}</span>
-          </ng-template>
-          <ng-template ngbPanelContent>
-            <div>{{ 'GIFTS.HOLDER' | translate }}: María</div>
-            <div>IBAN: ES14 0238 8203 5406 0006 7595</div>
-            <div>BIC: PSTRESMM</div>
-          </ng-template>
-        </ngb-panel>
-      </ngb-accordion>
+    <ngb-accordion [closeOthers]="true">
+      <ngb-panel id="static-1">
+        <ng-template ngbPanelTitle>
+          <span>{{ 'GIFTS.UK-TITLE' | translate }}</span>
+        </ng-template>
+        <ng-template ngbPanelContent>
+          <div>{{ 'GIFTS.HOLDER' | translate }}: Jean-Yves</div>
+          <div>{{ 'GIFTS.SORT-CODE' | translate }}: 77-72-62</div>
+          <div>{{ 'GIFTS.NUMBER' | translate }}: 01395868</div>
+          <div>IBAN: GB23 TSBS 777262 01395868</div>
+          <div>BIC: TSBSGB21437</div>
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel id="static-2">
+        <ng-template ngbPanelTitle>
+          <span>{{ 'GIFTS.FR-TITLE' | translate }}</span>
+        </ng-template>
+        <ng-template ngbPanelContent>
+          <div>{{ 'GIFTS.HOLDER' | translate }}: Jean-Yves</div>
+          <div>IBAN: FR76 4061 8802 6700 0400 7315 557 </div>
+          <div>BIC: BOUSFRPPXXX</div>
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel id="static-3">
+        <ng-template ngbPanelTitle>
+          <span>{{ 'GIFTS.ES-TITLE' | translate }}</span>
+        </ng-template>
+        <ng-template ngbPanelContent>
+          <div>{{ 'GIFTS.HOLDER' | translate }}: María</div>
+          <div>IBAN: ES14 0238 8203 5406 0006 7595</div>
+          <div>BIC: PSTRESMM</div>
+        </ng-template>
+      </ngb-panel>
+    </ngb-accordion>
 
-      <div class="thanks bold">
-         {{ 'GIFTS.THANKS' | translate }}
-      </div>
-
+    <div class="thanks bold">
+        {{ 'GIFTS.THANKS' | translate }}
     </div>
   </div>
 </div>

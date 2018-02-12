@@ -1,0 +1,27 @@
+<div class="full-image-container full-viewport news-background">
+
+  <app-menu></app-menu>
+
+  <div class="padding-border">
+    <h1>
+      {{ 'NEWS.TITLE' | translate }}
+    </h1>
+
+    <section>
+      <div class="white-bkgd news-card">
+
+      <img src="/assets/images/santiago-news.jpg" alt="Santiago" title="Santiago" />
+
+        <div class="news-title bold">{{ 'NEWS.ARTICLES.ONE.TITLE' | translate }}</div>
+        <span class="news-date">10/02/2018</span>
+
+        <div class="news-link bold">
+          <a routerLink="/news/flights-and-accommodation">
+             {{ 'NEWS.READ' | translate }}
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </div>
+</div>

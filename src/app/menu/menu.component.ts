@@ -13,18 +13,21 @@ import 'rxjs/add/operator/map';
 export class MenuComponent implements OnInit {
 
   menuState: boolean;
-  expand: boolean;
-  yourTripSelected: boolean;
+  expand = {
+    'news': false,
+    'trip': false
+  };
+  itemSelected = {
+    'news': false,
+    'trip': false
+  };
 
   constructor(route: ActivatedRoute) {
-    this.yourTripSelected = false;
-    const url: Observable<string> = route.url.map(segments => segments.join(''));
-    url.subscribe((seg) => this.routeChanged(seg));
+    route.url.subscribe((seg) => this.routeChanged(seg));
   }
 
   ngOnInit() {
     this.menuState = false;
-    this.expand = false;
   }
 
   menuToggle() {
@@ -35,12 +38,13 @@ export class MenuComponent implements OnInit {
     this.menuState = false;
   }
 
-  toggleSubMenu() {
-    this.expand = !this.expand;
+  toggleSubMenu(item: string) {
+    this.expand[item] = !this.expand[item];
   }
 
   routeChanged(seg: any) {
-    this.yourTripSelected = seg === 'your-trip';
+    this.itemSelected.trip = seg[0].path === 'your-trip';
+    this.itemSelected.news = seg[0].path === 'news';
   }
 
 }

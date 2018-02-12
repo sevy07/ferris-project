@@ -6,6 +6,23 @@
       </a>
     </li>
     <li>
+      <span class="santiago-link" [ngClass]="{'last-li': !expand.news, 'active': itemSelected.news}">
+        <a routerLink="/news">
+          {{ 'MENU.NEWS' | translate }}
+        </a>
+        <button class="santiago-toggle" (click)="toggleSubMenu('news')">
+          <i class="fa" [ngClass]="{'fa-angle-up': expand.news, 'fa-angle-down': !expand.news}"></i>
+        </button>
+      </span>
+      <ul class="sub-menu" [hidden]="!expand.news">
+        <li>
+          <a routerLink="/news/flights-and-accommodation" fragment="getting-there">
+            {{ 'NEWS.ARTICLES.ONE.TITLE' | translate }}
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li>
       <a routerLink="/our-story" routerLinkActive="active">
         {{ 'MENU.OUR-STORY' | translate }}
       </a>
@@ -21,15 +38,15 @@
       </a>
     </li>
     <li>
-      <span class="santiago-link" [ngClass]="{'last-li': !expand, 'active': yourTripSelected}">
+      <span class="santiago-link" [ngClass]="{'last-li': !expand.trip, 'active': itemSelected.trip}">
         <a routerLink="/your-trip">
           {{ 'MENU.TRIP' | translate }}
         </a>
-        <button class="santiago-toggle" (click)="toggleSubMenu()">
-          <i class="fa" [ngClass]="{'fa-angle-up': expand, 'fa-angle-down': !expand}"></i>
+        <button class="santiago-toggle" (click)="toggleSubMenu('trip')">
+          <i class="fa" [ngClass]="{'fa-angle-up': expand.trip, 'fa-angle-down': !expand.trip}"></i>
         </button>
       </span>
-      <ul class="sub-menu" [hidden]="!expand">
+      <ul class="sub-menu" [hidden]="!expand.trip">
         <li>
           <a routerLink="/your-trip" fragment="getting-there">
             {{ 'MENU.GETTING' | translate }}

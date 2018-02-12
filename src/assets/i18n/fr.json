@@ -150,6 +150,26 @@
     "BUTTON-LABEL": "Email"
   },
 
+  "NEWS": {
+    "TITLE": "INFOS",
+    "READ": "Lire",
+    "ARTICLES": {
+      "ONE": {
+        "TITLE": "Vols et hébergement"
+      }
+    },
+    "FLIGHT": {
+      "TITLE": "Information importante regardant les vols et l'hébergement",
+      "DATE": "10 février  2018",
+      "WELCOME": "Chère famille et chers amis,",
+      "DETAILS-ONE": "Nous voulions vous indiquer que les prix des vols et des hôtels pour le mois d’août ont significativement augmenté. Nous vous conseillons donc de réserver votre voyage dès que possible ! L'hôtel économique que nous avions recommandé sur notre site, San Martín Pinario, n’est déjà plus disponible pour ces dates. N'hésitez pas à",
+      "MAIL-LABEL": "nous contacter par email",
+      "DETAILS-TWO": "si vous avez des questions concernant les vols ou l'hébergement. Nous serons très heureux de vous aider !",
+      "BYE": "À bientôt,",
+      "SIGNATURE": "María & Jean-Yves"
+    }
+  },
+
   "MENU": {
     "HOME": "Accueil",
     "OUR-STORY": "Notre histoire",
@@ -162,7 +182,8 @@
     "DRINK": "Où boire un verre",
     "COSTA": "A Costa da Morte",
     "GIFTS": "Cadeaux",
-    "CONTACT": "Contact"
+    "CONTACT": "Contact",
+    "NEWS": "Infos"
   },
 
   "POLAROIDS": {
