@@ -161,7 +161,7 @@
         "TITLE": "Vuelos y alojamiento"
       },
       "TWO": {
-        "TITLE": "Luna de miel"
+        "TITLE": "Luna de miel en Isla Mauricio"
       }
     },
     "FLIGHT": {
@@ -176,7 +176,7 @@
     },
     "HONEYMOON": {
       "TITLE": "LUNA DE MIEL EN ISLA MAURICIO",
-      "DATE": "11 de febrero de 2018",
+      "DATE": "12 de febrero de 2018",
       "WELCOME": "¡Hola a todos!",
       "DETAILS-ONE": "¡Hemos reservado por fin nuestra luna de miel! No fue nada fácil, ya que septiembre no es la mejor época del año para visitar algunos de los destinos que teníamos en mente, pero vimos una serie de ofertas en Mauricio y nos enamoramos de la isla, sus paradisíacas playas y sus maravillosos hoteles.",
       "DETAILS-TWO": "¡Qué ganas! ¿Qué opináis vosotros de nuestra elección?",
@@ -233,6 +233,10 @@
     "SALMONETE": "Salmonete",
     "CAPE": "Cabo Fisterra",
     "MUXIA": "Muxía",
-    "EZARO": "Ézaro"
+    "EZARO": "Ézaro",
+    "MAURITIUS": "Mauricio",
+    "SNORKELING": "Esnórquel",
+    "CHAMAREL": "Chamarel",
+    "HOTEL": "Nuestro hotel"
   }
 }

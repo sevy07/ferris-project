@@ -173,7 +173,7 @@
     },
     "HONEYMOON": {
       "TITLE": "HONEYMOON IN MAURITIUS",
-      "DATE": "11th February 2018",
+      "DATE": "12th February 2018",
       "WELCOME": "Hello everyone!",
       "DETAILS-ONE": "We have finally booked our honeymoon! It was no easy task, as September is not the best time of the year to visit some of the destinations we were considering, but we came across some offers in Mauritius and fell in love with the island and its wonderful beaches and resorts!",
       "DETAILS-TWO": "We are so excited, we can’t wait! What do you think about our choice of destination?",
@@ -230,6 +230,10 @@
     "SALMONETE": "Salmonete",
     "CAPE": "Cape Finisterre",
     "MUXIA": "Muxía",
-    "EZARO": "Ézaro"
+    "EZARO": "Ézaro",
+    "MAURITIUS": "Mauritius",
+    "SNORKELING": "Snorkeling",
+    "CHAMAREL": "Chamarel",
+    "HOTEL":"Our hotel"
   }
 }

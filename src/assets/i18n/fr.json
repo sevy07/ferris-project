@@ -158,7 +158,7 @@
         "TITLE": "Vols et hébergement"
       },
       "TWO": {
-        "TITLE": "Lune de miel"
+        "TITLE": "Lune de miel à l'Île Maurice"
       }
 },
     "FLIGHT": {
@@ -172,10 +172,10 @@
       "SIGNATURE": "María & Jean-Yves"
     },
     "HONEYMOON": {
-      "TITLE": "HONEYMOON IN MAURITIUS",
-      "DATE": "11 février 2018",
+      "TITLE": "LUNE DE MIEL À L'ÎLE MAURICE",
+      "DATE": "12 février 2018",
       "WELCOME": "Bonjour à tous !",
-      "DETAILS-ONE": "Nous avons finalement réservé notre voyage de noces !  Ce n’était pas facile, vu que le mois de setembre n’est pas la meilleure période de l’année pour visiter quelques destinations que nous avions en tête, mais nous avons trouvé quelques offres à l’Île Maurice et nous sommes tombés amoureux de l’île, ses plages paradisiaques et ses merveilleux hôtels.",
+      "DETAILS-ONE": "Nous avons finalement réservé notre voyage de noces !  Ce n’était pas facile, d'autant plus que le mois de setembre n’est pas la meilleure période de l’année pour visiter certaines des destinations que nous avions en tête, mais nous avons trouvé plusieurs offres pour l’Île Maurice et nous sommes tombés amoureux de l’île, ses plages paradisiaques et ses merveilleux hôtels.",
       "DETAILS-TWO": "On a trop hâte ! Que pensez-vous de notre choix de destination ?",
       "BYE": "À bientôt !",
       "SIGNATURE": "María & Jean-Yves"
@@ -230,6 +230,10 @@
     "SALMONETE": "Salmonete",
     "CAPE": "Cap Finisterre",
     "MUXIA": "Muxía",
-    "EZARO": "Ézaro"
+    "EZARO": "Ézaro",
+    "MAURITIUS": "Maurice",
+    "SNORKELING": "Plongée",
+    "CHAMAREL": "Chamarel",
+    "HOTEL": "Notre hôtel"
   }
 }

@@ -4,9 +4,15 @@
 
 h1 {
   font-size: 7vmin;
-  padding: 10vmin 0 2vh;
+  padding: 10vmin 10vmin 3vh;
 }
 
 .honeymoon-viewport {
   min-height: 100vh;
+}
+
+.polaroid-images {
+  img {
+    height: 20vmin;
+  }
 }
