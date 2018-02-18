@@ -1,7 +1,19 @@
 $border-radius: 6px;
 
+h1 {
+  padding: 8vmin 0 0;
+}
+
 .news-background {
   background-image: url("/assets/background/pexels-gifts-background.jpeg");
+}
+
+.news-viewport {
+  min-height: 100vh;
+}
+
+.row {
+  margin-bottom: 4vw;
 }
 
 .news-card {
@@ -9,6 +21,7 @@ $border-radius: 6px;
   min-height: 35vh;
   width: 44vw;
   padding: 1rem;
+  margin: auto;
 }
 
 .news-title {
@@ -19,12 +32,8 @@ $border-radius: 6px;
   margin-top: .2rem;
 }
 
-section {
-  display: flex;
-}
-
 .first {
-  margin-right: 5vw;
+  margin-right: 4vw;
 }
 
 .image-frame {
@@ -39,6 +48,10 @@ section {
 
 .mauritius-news {
   background-image: url("/assets/images/mauritius-news.jpg");
+}
+
+.fisterra-news {
+  background-image: url("/assets/images/news-fisterra.jpg");
 }
 
 p {

@@ -1,0 +1,157 @@
+<div class="full-image-container news-costa-viewport news-costa-background">
+
+  <app-menu></app-menu>
+
+  <div class="padding-border">
+    <div class="white-bkgd">
+      <h1>
+        {{ 'NEWS.COSTA.TITLE' | translate }}
+      </h1>
+
+      <h2>{{ 'NEWS.COSTA.DATE' | translate }}</h2>
+
+      <p>{{ 'NEWS.COSTA.WELCOME' | translate }}</p>
+      <p>
+        {{ 'NEWS.COSTA.INTRO-ONE' | translate }}
+      </p>
+      <p>
+        {{ 'NEWS.COSTA.INTRO-TWO' | translate }}
+      </p>
+
+      <section>
+        <div class="bold">{{ 'NEWS.COSTA.NOT-MISS.TITLE' | translate }}</div>
+        <ul>
+          <li>
+             {{ 'NEWS.COSTA.NOT-MISS.PART-ONE' | translate }}
+            <ng-template [ngIf]="translate.currentLang !== 'es'">
+              <span class="italic-text">{{ 'NEWS.COSTA.NOT-MISS.PART-ONE-ITALIC' | translate }}</span>{{ 'NEWS.COSTA.NOT-MISS.PART-ONE-END' | translate }}
+            </ng-template>
+          </li>
+          <li>
+            {{ 'NEWS.COSTA.NOT-MISS.PART-TWO' | translate }}
+            <ng-template [ngIf]="translate.currentLang === 'en'">
+              <span class="italic-text">{{ 'NEWS.COSTA.NOT-MISS.PART-TWO-ITALIC' | translate }}</span>
+              {{ 'NEWS.COSTA.NOT-MISS.PART-TWO-END' | translate }}
+            </ng-template>
+          </li>
+          <li>
+            {{ 'NEWS.COSTA.NOT-MISS.PART-THREE' | translate }}
+          </li>
+          <li>
+            {{ 'NEWS.COSTA.NOT-MISS.PART-FOUR' | translate }}
+          </li>
+          <li>
+            {{ 'NEWS.COSTA.NOT-MISS.PART-FIVE' | translate }}
+          </li>
+          <li>
+            {{ 'NEWS.COSTA.NOT-MISS.PART-SIX' | translate }}
+          </li>
+        </ul>
+      </section>
+
+      <div class="row">
+        <div class="col-6">
+          <img class="img-standalone" src="/assets/images/news-costa-one.jpg" />
+        </div>
+        <div class="col-6">
+          <img class="img-standalone" src="/assets/images/news-costa-two.jpg" />
+        </div>
+      </div>
+
+      <section>
+        <div class="bold">{{ 'NEWS.COSTA.HIKING.TITLE' | translate }}</div>
+        <ul>
+          <li>
+            {{ 'NEWS.COSTA.HIKING.PART-ONE' | translate }}
+          </li>
+          <li>
+            {{ 'NEWS.COSTA.HIKING.PART-TWO' | translate }}
+          </li>
+          <li>
+            {{ 'NEWS.COSTA.HIKING.PART-THREE-A' | translate }}
+            <a href="http://www.cataventos.net/" target="_blank">{{ 'NEWS.COSTA.HIKING.PART-THREE-LINK' | translate }}</a>
+            {{ 'NEWS.COSTA.HIKING.PART-THREE-B' | translate }}
+          </li>
+          <li>
+            {{ 'NEWS.COSTA.HIKING.PART-FOUR-A' | translate }}<span class="italic-text">{{ 'NEWS.COSTA.HIKING.PART-FOUR-A-ITALIC' | translate }}</span>{{ 'NEWS.COSTA.HIKING.PART-FOUR-A-END' | translate }}
+            <a href="http://www.caminodosfaros.com/en/" target="_blank">{{ 'NEWS.COSTA.HIKING.PART-FOUR-LINK' | translate }}</a>{{ 'NEWS.COSTA.HIKING.PART-FOUR-B' | translate }}
+          </li>
+        </ul>
+      </section>
+
+      <img class="img-standalone" src="/assets/images/news-hiking.jpg" />
+
+      <section>
+        <div class="bold">{{ 'NEWS.COSTA.SLEEP.TITLE' | translate }}</div>
+        <ul>
+          <li>
+            <a href="http://ocahotels.com/hoteles/espana/a-coruna/cee/oca-insua/" target="_blank">{{ 'NEWS.COSTA.SLEEP.LINK-ONE' | translate }}</a>{{ 'NEWS.COSTA.SLEEP.LINK-ONE-DETAILS' | translate }}
+          </li>
+          <li>
+            <a href="http://www.hotelsemaforodefisterra.com/en" target="_blank">{{ 'NEWS.COSTA.SLEEP.LINK-TWO' | translate }}</a>{{ 'NEWS.COSTA.SLEEP.LINK-TWO-DETAILS' | translate }}
+          </li>
+          <li>
+            <a href="http://www.hoteladelolo.com/" target="_blank">{{ 'NEWS.COSTA.SLEEP.LINK-THREE' | translate }}</a>{{ 'NEWS.COSTA.SLEEP.LINK-THREE-DETAILS' | translate }}
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <div class="bold">{{ 'NEWS.COSTA.EAT.TITLE' | translate }}</div>
+        <ul>
+          <li>
+            <a href="http://www.orecreodacostadamorte.com/" target="_blank">{{ 'NEWS.COSTA.EAT.PART-ONE-LINK' | translate }}</a>{{ 'NEWS.COSTA.EAT.PART-ONE' | translate }}
+            <ng-template [ngIf]="translate.currentLang !== 'es'">
+              <span class="italic-text">{{ 'NEWS.COSTA.EAT.PART-ONE-ITALIC' | translate }}</span>
+              {{ 'NEWS.COSTA.EAT.PART-ONE-END' | translate }}
+            </ng-template>
+          </li>
+          <li>
+            <a href="https://www.google.co.uk/maps/place/Bar+Playa+Lires/@43.0015636,-9.2571012,15z/data=!4m5!3m4!1s0x0:0xa80ea8578eec4c02!8m2!3d43.0015636!4d-9.2571012" target="_blank">{{ 'NEWS.COSTA.EAT.PART-TWO-LINK' | translate }}</a>{{ 'NEWS.COSTA.EAT.PART-TWO' | translate }}
+            <ng-template [ngIf]="translate.currentLang !== 'es'">
+              <span class="italic-text">{{ 'NEWS.COSTA.EAT.PART-TWO-ITALIC' | translate }}</span>
+              {{ 'NEWS.COSTA.EAT.PART-TWO-END' | translate }}
+            </ng-template>
+          </li>
+          <li>
+            <a href="http://tiradocordel.com/" target="_blank">{{ 'NEWS.COSTA.EAT.PART-THREE-LINK' | translate }}</a>{{ 'NEWS.COSTA.EAT.PART-THREE' | translate }}
+            <ng-template [ngIf]="translate.currentLang !== 'es'">
+              <span class="italic-text">{{ 'NEWS.COSTA.EAT.PART-THREE-ITALIC' | translate }}</span>
+              {{ 'NEWS.COSTA.EAT.PART-THREE-END' | translate }}
+            </ng-template>
+          </li>
+        </ul>
+        <P>
+          {{ 'NEWS.COSTA.EAT.PART-FOUR' | translate }}
+        </P>
+      </section>
+
+      <img class="img-standalone lires" src="/assets/images/news-eat.jpg" />
+
+      <section>
+        <div class="bold">{{ 'NEWS.COSTA.DRINKS.TITLE' | translate }}</div>
+        {{ 'NEWS.COSTA.DRINKS.DETAILS' | translate }}
+        <a href="https://www.google.co.uk/maps/place/A+Gavilla/@42.9444029,-9.192571,15z/data=!4m2!3m1!1s0x0:0xc7a3ded20806c512?sa=X&ved=0ahUKEwi63Y-2m6HZAhXEIsAKHdhVBAIQ_BIIfDAK" target="_blank">{{ 'NEWS.COSTA.DRINKS.DETAILS-LINK' | translate }}</a>{{ 'NEWS.COSTA.DRINKS.DETAILS-END' | translate }}
+      </section>
+
+      <section class="learn">
+        {{ 'NEWS.COSTA.LEARN' | translate }}
+        <a href="http://www.stoupa.gal/" target="_blank">{{ 'NEWS.COSTA.LEARN-LINK' | translate }}</a>
+        {{ 'NEWS.COSTA.LEARN-END' | translate }}
+      </section>
+
+      <p>{{ 'NEWS.COSTA.CONTACT' | translate }}</p>
+      <p>
+        <span class="italic-text" *ngIf="translate.currentLang !== 'es'; else spanishVersion">
+          {{ 'NEWS.COSTA.BYE' | translate }}
+        </span>
+        <ng-template #spanishVersion>
+          {{ 'NEWS.COSTA.BYE' | translate }}
+        </ng-template>
+      </p>
+      <p>{{ 'NEWS.COSTA.SIGNATURE' | translate }}</p>
+
+    </div>
+
+  </div>
+</div>

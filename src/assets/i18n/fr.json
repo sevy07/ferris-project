@@ -159,6 +159,9 @@
       },
       "TWO": {
         "TITLE": "Lune de miel à l'Île Maurice"
+      },
+      "THREE": {
+        "TITLE": "Visitez la Costa da Morte"
       }
 },
     "FLIGHT": {
@@ -179,6 +182,74 @@
       "DETAILS-TWO": "On a trop hâte ! Que pensez-vous de notre choix de destination ?",
       "BYE": "À bientôt !",
       "SIGNATURE": "María & Jean-Yves"
+    },
+  "COSTA": {
+    "TITLE": "VISITEZ LA COSTA DA MORTE",
+    "DATE": "18 février 2018",
+    "WELCOME": "Salut !",
+    "INTRO-ONE": "Plusieurs d’entre vous m’avez dit que vous vouliez passer quelques jours en Galice avant ou après le mariage et visiter la Costa da Morte (très bon choix !),  je me suis donc dit que je pourrais écrire un petit article pour vous en dire un petit peu plus sur la région.",
+    "INTRO-TWO": "Il y a plusieurs théories qui expliquent l’origine du nom de la Costa da Morte.  La plus sinistre parle des naufrages qu’il y a eu tout au long des années sur le dangereux littoral rocheux.  La théorie la plus poétique (et celle que je préfère) avance que notre côte s’appelle comme cela parce que le soleil \"se meure\" au Finisterre (la fin de la terre), qui est selon certains le point le plus à l’ouest de l’Europe continentale.",
+    "NOT-MISS": {
+      "TITLE": "Visites incontournables :",
+      "PART-ONE": "Promenez-vous sur la plage de Carnota, la plus longue plage de Galice et, si vous avez le temps, visitez l'",
+      "PART-ONE-ITALIC": "hórreo",
+      "PART-ONE-END": " de Carnota.",
+      "PART-TWO": "À Ézaro, profitez des merveilleux paysages depuis le mirador et visitez la cascade.",
+      "PART-THREE": "En chemin vers Finisterre vous pouvez vous arrêter au point de vue de Gures et admirer le paysage.",
+      "PART-FOUR": "Visitez le Cap et le phare de Finisterre et, si vous le pouvez, restez pour profiter du coucher de soleil. Il fait souvent un peu froid et il y a beaucoup de vent : couvrez-vous !  Si vous avez le temps pendant la journée, explorez plusieurs plages qui entourent le Cap : A Langosteira si vous voulez aller nager, Rostro ou Mar de Fóra si vous voulez profiter de la beauté et de l’intensité des vagues (il est interdit de nager à Mar de Fóra !).",
+      "PART-FIVE": "À Muxía, dirigez-vous vers le sanctuaire de la Virxe da Barca, situé au bord de la mer, et découvrez les légendes sur les roches qui l’entourent.",
+      "PART-SIX": "Si vous restez pendant plusieurs jours, il y a beaucoup d’autres endroits que vous pouvez visiter, comme Cabo Touriñán, Cabo Vilán, la Playa de los Cristales à Laxe…"
+    },
+    "HIKING": {
+      "TITLE": "Randonnées et sports aquatiques :",
+      "PART-ONE": "Si vous restez sur la côte pendant quelques jours, vous aurez probablement le temps de gravir le Monte Pindo (Moa). Vous pouvez partir tôt le matin et être rentrés pour midi. La vue depuis le sommet est impressionnante. Nous ne vous conseillons pas de monter s’il y a du brouillard : vous ne pourrez rien voir. Si vous choisissez de gravir la Moa, n’hésitez pas à nous contacter: nous pouvons vous donner quelques conseils sur les meilleurs chemins et points de vue.",
+      "PART-TWO": "Si vous aimez le surf, allez faire un tour du côté de Nemiña !",
+      "PART-THREE-A": "Vous pouvez aller",
+      "PART-THREE-LINK": "faire de la voile",
+      "PART-THREE-B": "à Corcubión.",
+      "PART-FOUR-A": "‎Il y a un chemin de randonnée qui s’appelle \"",
+      "PART-FOUR-A-ITALIC": "O camiño dos faros",
+      "PART-FOUR-A-END": "\" (le chemin des phares). Vous pourrez trouver de plus amples informations sur la route et les différentes étapes",
+      "PART-FOUR-LINK": "ici",
+      "PART-FOUR-B": "."
+    },
+    "SLEEP": {
+      "TITLE": "Où dormir :",
+      "LINK-ONE": "Hotel Insua",
+      "LINK-ONE-DETAILS": ", Cee.",
+      "LINK-TWO": "Hotel Semáforo",
+      "LINK-TWO-DETAILS": ", Finisterre. (Un petit peu cher !)",
+      "LINK-THREE": "‎A de Loló",
+      "LINK-THREE-DETAILS": ", Muxía."
+    },
+    "EAT": {
+      "TITLE": "Où manger :",
+      "PART-ONE-LINK": "O Recreo",
+      "PART-ONE": ", Cee. Les fruits de mer, le poisson et la viande valent définitevement le détour ! On vous recommande le",
+      "PART-ONE-ITALIC": "pulpo con algas",
+      "PART-ONE-END": "(poulpe accompagné d’algues).",
+      "PART-TWO-LINK": "Bar Playa",
+      "PART-TWO": ", Lires. Nous vous conseillons d’aller boire un verre et profiter du coucher de soleil. Le paysage est merveilleux et vous pouvez manger des tapas et boire une ou deux",
+      "PART-TWO-ITALIC": "cañas",
+      "PART-TWO-END": "d’Estrella Galicia pendant que vous admirez les alentours.",
+      "PART-THREE-LINK": "Tira do Cordel",
+      "PART-THREE": ", Finisterre. Il est considéré comme le meilleur restaurant du coin (mais il ne convient pas à toutes les bourses) et il attire des voyageurs de toute l'Espagne et même de l’étranger qui viennent goûter la spécialité,",
+      "PART-THREE-ITALIC": "la lubina",
+      "PART-THREE-END": "(loup de mer).",
+      "PART-FOUR": "Il y a beaucoup d’autres restaurants et tavernes dans les alentours comme O fragón (Finisterre), Cabanel (Sardiñeiro), O Ribeiro (Corcubión)..."
+    },
+    "DRINKS": {
+      "TITLE": "Pour boire un verre :",
+      "DETAILS": "Nous adorons l’ambiance de",
+      "DETAILS-LINK": "A Gavilla",
+      "DETAILS-END": ", à Corcubión."
+    },
+    "LEARN": "Si vous voulez en savoir plus sur la Costa da Morte et découvrir les oeuvres des artistes locaux les plus connus, visitez la gallérie d’art",
+    "LEARN-LINK": "Stoupa",
+    "LEARN-END": "à Cee, où vous pourrez aussi réserver et organiser toute sorte d’activités sportives et récréatives.",
+    "CONTACT": "N’hésitez pas à nous contacter si vous avez des questions. J’ai grandi dans la Costa da Morte, et je serai très heureuse de vous aider à organiser votre voyage :)",
+    "BYE": "¡Un saludo!",
+    "SIGNATURE": "María"
     }
   },
 

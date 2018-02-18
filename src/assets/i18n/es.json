@@ -162,6 +162,9 @@
       },
       "TWO": {
         "TITLE": "Luna de miel en Isla Mauricio"
+      },
+      "THREE": {
+        "TITLE": "Ruta por la Costa da Morte"
       }
     },
     "FLIGHT": {
@@ -182,6 +185,66 @@
       "DETAILS-TWO": "¡Qué ganas! ¿Qué opináis vosotros de nuestra elección?",
       "BYE": "¡Hasta pronto!",
       "SIGNATURE": "María & Jean-Yves"
+    },
+    "COSTA": {
+      "TITLE": "RUTA POR LA COSTA DA MORTE",
+      "DATE": "18 de febrero  de 2018",
+      "WELCOME": "¡Hola otra vez!",
+      "INTRO-ONE": "Algunos me habéis comentado que os apetece pasar unos días en Galicia antes o después de la boda y visitar la Costa da Morte (¡gran elección!), así que he pensado en escribir este post para contaros un poquito más acerca de la zona.",
+      "INTRO-TWO": "Hay varias teorías que explican el origen del nombre de la Costa da Morte. La más siniestra habla de los naufragios que ha habido a lo largo de los años en el peligroso litoral rocoso. La teoría más poética (y mi preferida) dice que nuestra costa se llama así porque el sol “se muere” en Fisterra (el fin de la tierra), según algunos el punto más occidental del continente europeo.",
+      "NOT-MISS": {
+        "TITLE": "Visitas imprescindibles:",
+        "PART-ONE": "Dad un paseo por la playa de Carnota, la más larga de Galicia, y, si tenéis tiempo, visitad el hórreo de Carnota.",
+        "PART-TWO": "En Ézaro, disfrutad de las impresionantes vistas desde el mirador y visitad la cascada.",
+        "PART-THREE": "‎De camino hacia Fisterra podéis hacer una parada en el mirador de Gures y admirar el paisaje.",
+        "PART-FOUR": "Visitad el Cabo y el faro de Fisterra y, si podéis, quedaos a ver el atardecer. Suele hacer bastante viento y algo de frío, ¡así que no os olvidéis de llevar una chaqueta! Si tenéis tiempo durante el día, explorad algunas de las playas que rodean el Cabo: A Langosteira si os apetece daros un chapuzón; Rostro o Mar de Fóra si queréis disfrutar de la belleza y la fuerza de las olas (¡en Mar de Fóra no está permitido el baño!).",
+        "PART-FIVE": "En Muxía, dirigíos hacia el santuario de la Virxe da Barca, ubicado al lado del mar, y descubrid las leyendas acerca las rocas que lo rodean.",
+        "PART-SIX": "Si os quedáis durante unos días hay muchos más lugares que podéis visitar, como Cabo Touriñán, Cabo Vilán, la Playa de los Cristales de Laxe…"
+      },
+      "HIKING": {
+        "TITLE": "Senderismo y deportes acuáticos:",
+        "PART-ONE": "Si os quedáis en la Costa unos días, probablemente tendréis tiempo de subir al Monte Pindo (Moa). Podéis salir por la mañana temprano y estar de vuelta para comer, y las vistas desde la cima son impresionantes. No os aconsejamos subir si hay mucha niebla, ya que no se va a ver nada desde arriba. Si decidís subir a la Moa poneos en contacto con nosotros, porque podemos daros algunos consejos sobre las mejores rutas y las mejores vistas.",
+        "PART-TWO": "Si os gusta el surf, ¡podéis practicarlo en Nemiña!",
+        "PART-THREE-A": "‎Podéis",
+        "PART-THREE-LINK": "hacer vela",
+        "PART-THREE-B": "en Corcubión.",
+        "PART-FOUR-A": "‎Hay una ruta de senderismo llamada \"",
+        "PART-FOUR-A-ITALIC": "O camiño dos faros",
+        "PART-FOUR-A-END": "\" Podéis obtener más información sobre la ruta y las distintas etapas",
+        "PART-FOUR-LINK": "aquí",
+        "PART-FOUR-B": "."
+      },
+      "SLEEP": {
+        "TITLE": "Dónde dormir:",
+        "LINK-ONE": "Hotel Insua",
+        "LINK-ONE-DETAILS": ", Cee.",
+        "LINK-TWO": "Hotel Semáforo",
+        "LINK-TWO-DETAILS": ", Fisterra. (¡Aunque es un pelín caro!)",
+        "LINK-THREE": "‎A de Loló",
+        "LINK-THREE-DETAILS": ", Muxía."
+      },
+      "EAT": {
+        "TITLE": "Dónde comer:",
+        "PART-ONE-LINK": "O Recreo",
+        "PART-ONE": ", Cee. Impresionante marisco, pescado y carne. Recomendamos que probéis el pulpo con algas.",
+        "PART-TWO-LINK": "Bar Playa",
+        "PART-TWO": ", Lires. Recomendamos que vayáis a tomar algo mientras disfrutáis del atardecer. La vista es impresionante y podéis tomar unas tapas y unas cañas de Estrella Galicia mientras admiráis el entorno.",
+        "PART-THREE-LINK": "Tira do Cordel",
+        "PART-THREE": ", Fisterra. Está considerado como el mejor restaurante de la zona (aunque no para todos los bolsillos) y atrae a viajeros de otros lugares de España e incluso del extranjero que vienen a probar el plato estrella, la lubina.",
+        "PART-FOUR": "Hay muchos otros restaurantes, mesones y tabernas en la zona como O fragón (Fisterra), Cabanel (Sardiñeiro), O Ribeiro (Corcubión)..."
+      },
+      "DRINKS": {
+        "TITLE": "Para tomar una copa:",
+        "DETAILS": "‎Nos encanta el ambiente de",
+        "DETAILS-LINK": "A Gavilla",
+        "DETAILS-END": ", en Corcubión."
+      },
+      "LEARN": "Si queréis saber más acerca de la Costa da Morte o descubrir las obras de los artistas más famosos de la zona, visitad la galería de arte",
+      "LEARN-LINK": "Stoupa",
+      "LEARN-END": "en Cee, en la que también podréis reservar y organizar todo tipo de actividades deportivas y de ocio.",
+      "CONTACT": "No dudéis en poneros en contacto si tenéis alguna pregunta. Yo nací y me crié en la Costa da Morte, así que estaré encantada de ayudaros a organizar vuestro viaje :)",
+      "BYE": "¡Un saludo!",
+      "SIGNATURE": "María"
     }
   },
 

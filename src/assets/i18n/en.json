@@ -159,6 +159,9 @@
       },
       "TWO": {
         "TITLE": "Honeymoon in Mauritius"
+      },
+      "THREE": {
+        "TITLE": "Costa da Morte Roadtrip"
       }
     },
     "FLIGHT": {
@@ -179,6 +182,76 @@
       "DETAILS-TWO": "We are so excited, we can’t wait! What do you think about our choice of destination?",
       "BYE": "¡Hasta pronto!",
       "SIGNATURE": "María & Jean-Yves"
+    },
+    "COSTA": {
+      "TITLE": "COSTA DA MORTE ROADTRIP",
+      "DATE": "18th February 2018",
+      "WELCOME": "Hello again!",
+      "INTRO-ONE": "I have spoken to a few of our guests who seemed interested in staying in Galicia for a few days before or after the wedding and visiting the Death Coast (great choice!), so I thought of telling you a bit more about it.",
+      "INTRO-TWO": "There are several theories that explain the origin of the name of the Costa da Morte. The creepiest one is that, throughout the years, there have been many shipwrecks along its dangerous rocky shore. The most poetic theory (and the one I prefer) is that the sun \"dies\" in Finisterre (the Land's End), the westernmost point of mainland Europe according to some.",
+      "NOT-MISS":{
+        "TITLE": "What you should not miss:",
+        "PART-ONE": "Walk along Carnota's beach, the longest in Galicia and, if you have time, visit Carnota's",
+        "PART-ONE-ITALIC": "hórreo",
+        "PART-ONE-END":".",
+        "PART-TWO": "In Ézaro, admire the view from the",
+        "PART-TWO-ITALIC": "mirador",
+        "PART-TWO-END": "(viewpoint) and visit the hidden waterfall.",
+        "PART-THREE": "On your way towards Fisterra or Finisterre, you can stop and admire the view of the coast from Gures' viewpoint.",
+        "PART-FOUR": "Visit the Cape and Lighthouse of Finisterre and, if you can, watch the sunset from there. It can get quite windy and cold so remember to bring a jacket! If you have time during the day, explore some of the beaches surrounding the Cape: A Langosteira if you want to go for a swim, Rostro or Mar de Fóra if you want to admire the beauty and intensity of the ocean (swimming is NOT allowed!).",
+        "PART-FIVE": "In Muxía, head towards the Virxe da Barca sanctuary, right next to the sea, and learn the different legends behind the rocks surrounding it.",
+        "PART-SIX": "If you stay for a few days there are many more places you can visit, including Cabo Touriñán, Cabo Vilán, Laxe’s Playa de los Cristales…"
+      },
+      "HIKING": {
+        "TITLE": "Hiking and water sports:",
+        "PART-ONE": "If you stay for a few days, you probably have time to walk up Monte Pindo (Moa). You can start early in the morning and be back for lunch, and the views from the top really are the best you can get. Try to avoid going if the weather is foggy, as you won't be able to see much from the top. If you choose to walk up the Moa, please let us know as we can give you some advice regarding the best paths and viewpoints.",
+        "PART-TWO": "If you enjoy surfing, you can give it a go in Nemiña!",
+        "PART-THREE-A": "‎You can go",
+        "PART-THREE-LINK": "‎sailing",
+        "PART-THREE-B": "‎in Corcubión.",
+        "PART-FOUR-A": "There is an amazing hiking trail called \"",
+        "PART-FOUR-A-ITALIC": "O camiño dos faros",
+        "PART-FOUR-A-END" :"\" (The Way of the Lighthouses). You can find more information about the trail and its different stages",
+        "PART-FOUR-LINK": "here",
+        "PART-FOUR-B": "."
+      },
+      "SLEEP": {
+        "TITLE": "Where to sleep:",
+        "LINK-ONE": "Hotel Insua",
+        "LINK-ONE-DETAILS": ", Cee.",
+        "LINK-TWO": "Hotel Semáforo",
+        "LINK-TWO-DETAILS": ", Finisterre. (Very pricey!)",
+        "LINK-THREE": "‎A de Loló",
+        "LINK-THREE-DETAILS": ", Muxía."
+      },
+      "EAT": {
+        "TITLE": "Where to eat:",
+        "PART-ONE-LINK": "O Recreo",
+        "PART-ONE": ", Cee. You can have amazing seafood, fish and meat. We recommend trying",
+        "PART-ONE-ITALIC": "pulpo con algas",
+        "PART-ONE-END": "(octopus with seaweed).",
+        "PART-TWO-LINK": "Bar Playa",
+        "PART-TWO": ", Lires. We recommend going there to have a drink and enjoy the beautiful sunset. The view is amazing and you can have a few tapas and some",
+        "PART-TWO-ITALIC": "cañas",
+        "PART-TWO-END": "of Estrella Galicia while you enjoy your surroundings.",
+        "PART-THREE-LINK": "Tira do Cordel",
+        "PART-THREE": ", Finisterre. It is considered to be the best restaurant in the area (although a bit pricey) and people come from other regions in Spain and even other countries to try their wonderful",
+        "PART-THREE-ITALIC": "lubina",
+        "PART-THREE-END": "(seabass).",
+        "PART-FOUR": "There are many other great restaurants and taverns in the area such as O fragón (Finisterre), Cabanel (Sardiñeiro), O Ribeiro (Corcubión)..."
+      },
+      "DRINKS": {
+        "TITLE": "After dinner drinks:",
+        "DETAILS": "We love the atmosphere at",
+        "DETAILS-LINK": "A Gavilla",
+        "DETAILS-END": ", in Corcubión."
+      },
+      "LEARN": "If you want to learn a bit more about the Death Coast or explore the works of the most famous artists in the area, visit the",
+      "LEARN-LINK": "Stoupa",
+      "LEARN-END": "art gallery in Cee, where you will also be able to book all sorts of sport and leisure activities.",
+      "CONTACT": "Don't hesitate to contact us if you have any questions. I grew up on the Costa da Morte and I'll be happy to help organise your trip :)",
+      "BYE": "¡Un saludo!",
+      "SIGNATURE": "María"
     }
   },
 
