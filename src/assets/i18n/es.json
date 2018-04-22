@@ -165,6 +165,9 @@
       },
       "THREE": {
         "TITLE": "Ruta por la Costa da Morte"
+      },
+      "FOUR": {
+        "TITLE": "Las apps que necesitaréis"
       }
     },
     "FLIGHT": {
@@ -188,7 +191,7 @@
     },
     "COSTA": {
       "TITLE": "RUTA POR LA COSTA DA MORTE",
-      "DATE": "18 de febrero  de 2018",
+      "DATE": "18 de febrero de 2018",
       "WELCOME": "¡Hola otra vez!",
       "INTRO-ONE": "Algunos me habéis comentado que os apetece pasar unos días en Galicia antes o después de la boda y visitar la Costa da Morte (¡gran elección!), así que he pensado en escribir este post para contaros un poquito más acerca de la zona.",
       "INTRO-TWO": "Hay varias teorías que explican el origen del nombre de la Costa da Morte. La más siniestra habla de los naufragios que ha habido a lo largo de los años en el peligroso litoral rocoso. La teoría más poética (y mi preferida) dice que nuestra costa se llama así porque el sol “se muere” en Fisterra (el fin de la tierra), según algunos el punto más occidental del continente europeo.",
@@ -245,6 +248,27 @@
       "CONTACT": "No dudéis en poneros en contacto si tenéis alguna pregunta. Yo nací y me crié en la Costa da Morte, así que estaré encantada de ayudaros a organizar vuestro viaje :)",
       "BYE": "¡Un saludo!",
       "SIGNATURE": "María"
+    },
+    "APPS": {
+      "TITLE": "LAS APPS QUE NECESITARÉIS",
+      "DATE": "22 de abril de 2018",
+      "WELCOME": "¡Hola a todos!",
+      "DETAILS": "Se va acercando el “día B” y queremos que estéis totalmente preparados, así que vamos a hablaros de dos aplicaciones que os podéis descargar para ayudarnos a recordar los mejores momentos de una ocasión muy especial.",
+      "INSTAX-A": "Si sacáis fotos con el móvil ese día, nos encantaría que pudieseis compartirlas con nosotros y con los demás invitados. Tendremos una",
+      "INSTAX-B": "impresora de polaroids",
+      "INSTAX-C": "al lado del libro de firmas, así que si instaláis la aplicación",
+      "INSTAX-D": "“Instax SHARE”",
+      "INSTAX-E": "en vuestros móviles podréis imprimir todas las fotos que queráis y pegarlas en el libro. ¿Qué os parece?",
+      "LINKS": "Aquí están los enlaces:",
+      "WEDPICS-A": "También tenemos una aplicación llamada",
+      "WEDPICS-B": "Wedpics",
+      "WEDPICS-C": ", que es una especie de Instagram para bodas, y cualquiera puede unirse a nuestra boda en la",
+      "WEDPICS-D": "página web",
+      "WEDPICS-E": "o instalando la aplicación (",
+      "WEDPICS-F": ") e introduciendo nuestro código:",
+      "WEDPICS-G": ". Luego podréis compartir todas vuestras fotos y vuestros vídeos añadiendo las etiquetas que elijáis y nosotros podremos descargárnoslos en buena calidad. ¡Os agradeceríamos muchísimo que nos ayudaseis a capturar los momentos más especiales del día de nuestra boda!",
+      "BYE": "Muchas gracias y hasta pronto :)",
+      "SIGNATURE": "María y J-Y"
     }
   },
 

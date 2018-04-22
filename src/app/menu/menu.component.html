@@ -6,31 +6,9 @@
       </a>
     </li>
     <li>
-      <span class="santiago-link" [ngClass]="{'last-li': !expand.news, 'active': itemSelected.news}">
-        <a routerLink="/news">
-          {{ 'MENU.NEWS' | translate }}
-        </a>
-        <button class="santiago-toggle" (click)="toggleSubMenu('news')">
-          <i class="fa" [ngClass]="{'fa-angle-up': expand.news, 'fa-angle-down': !expand.news}"></i>
-        </button>
-      </span>
-      <ul class="sub-menu" [hidden]="!expand.news">
-        <li>
-          <a routerLink="/news/costa-da-morte" fragment="getting-there">
-            {{ 'NEWS.ARTICLES.THREE.TITLE' | translate }}
-          </a>
-        </li>
-        <li>
-          <a routerLink="/news/honeymoon" fragment="getting-there">
-            {{ 'NEWS.ARTICLES.TWO.TITLE' | translate }}
-          </a>
-        </li>
-        <li>
-          <a routerLink="/news/flights-and-accommodation" fragment="getting-there">
-            {{ 'NEWS.ARTICLES.ONE.TITLE' | translate }}
-          </a>
-        </li>
-      </ul>
+      <a routerLink="/news" routerLinkActive="active">
+         {{ 'MENU.NEWS' | translate }}
+      </a>
     </li>
     <li>
       <a routerLink="/our-story" routerLinkActive="active">

@@ -12,6 +12,7 @@ import { NewsComponent } from '../news/news.component';
 import { NewsFlightComponent } from '../news/_subComponents/news-flight/news-flight.component';
 import { NewsHoneymoonComponent } from '../news/_subComponents/news-honeymoon/news-honeymoon.component';
 import { NewsCostaComponent } from '../news/_subComponents/news-costa/news-costa.component';
+import { NewsAppsComponent } from '../news/_subComponents/news-apps/news-apps.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'news/flights-and-accommodation', component: NewsFlightComponent },
   { path: 'news/honeymoon', component: NewsHoneymoonComponent },
   { path: 'news/costa-da-morte', component: NewsCostaComponent },
+  { path: 'news/apps', component: NewsAppsComponent },
   { path: '**', component: HomeComponent }
 ];
 

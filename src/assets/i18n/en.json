@@ -162,6 +162,9 @@
       },
       "THREE": {
         "TITLE": "Costa da Morte Roadtrip"
+      },
+      "FOUR": {
+        "TITLE": "The apps you need to download"
       }
     },
     "FLIGHT": {
@@ -252,6 +255,27 @@
       "CONTACT": "Don't hesitate to contact us if you have any questions. I grew up on the Costa da Morte and I'll be happy to help organise your trip :)",
       "BYE": "¡Un saludo!",
       "SIGNATURE": "María"
+    },
+    "APPS": {
+      "TITLE": "THE APPS YOU NEED TO DOWNLOAD",
+      "DATE": "22nd April 2018",
+      "WELCOME": "Hey there!",
+      "DETAILS": "Our big day is approaching, and we want you to be completely ready, so here are a couple of apps you can download to help us remember the best moments of such an important occasion!",
+      "INSTAX-A": "If you take some pictures with your phone during the day, it would be great if you could share them with us and other guests. We will have a",
+      "INSTAX-B": "polaroid printer",
+      "INSTAX-C": "at the venue, so if you install the",
+      "INSTAX-D": "“Instax SHARE”",
+      "INSTAX-E": "app on your phone, you will be able to print as many polaroids as you like and stick them in our guestbook. How cool is that?",
+      "LINKS": "Here are the links:",
+      "WEDPICS-A": "We also have an app called",
+      "WEDPICS-B": "Wedpics",
+      "WEDPICS-C": ", which is like an Instagram for weddings, and anyone can join our wedding on their",
+      "WEDPICS-D": "website",
+      "WEDPICS-E": "or installing the app (",
+      "WEDPICS-F": ") and entering our wedding ID:",
+      "WEDPICS-G": ". Then you can share all your pictures and videos with the tags of your choice and we will be able to download them in high quality. We would be really grateful if you could help us capture the most special moments of our wedding day!",
+      "BYE": "Thank you and see you very soon :)",
+      "SIGNATURE": "María and J-Y"
     }
   },
 

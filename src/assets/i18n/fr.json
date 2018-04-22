@@ -162,6 +162,9 @@
       },
       "THREE": {
         "TITLE": "Visitez la Costa da Morte"
+      },
+      "FOUR": {
+        "TITLE": "Les apps dont vous aurez besoin"
       }
 },
     "FLIGHT": {
@@ -250,6 +253,27 @@
     "CONTACT": "N’hésitez pas à nous contacter si vous avez des questions. J’ai grandi dans la Costa da Morte, et je serai très heureuse de vous aider à organiser votre voyage :)",
     "BYE": "¡Un saludo!",
     "SIGNATURE": "María"
+    },
+    "APPS": {
+      "TITLE": "LES APPS DONT VOUS AUREZ BESOIN",
+      "DATE": "22 avril 2018",
+      "WELCOME": "Salut à tous et à toutes !",
+      "DETAILS": "Le “jour M” s’approche et pour que vous soyez bien préparés, nous allons vous parler de deux applications pour votre smartphone. Vous pouvez les télécharger pour nous aider à nous souvenir des meilleurs moments de cette occasion très spéciale.",
+      "INSTAX-A": "Si vous prenez des photos pendant le mariage, ça nous ferait très plaisir que vous les partagiez avec nous et les autres invités. Nous aurons une",
+      "INSTAX-B": "imprimante polaroid",
+      "INSTAX-C": "à côté du livre d’or, donc si vous installez l’application",
+      "INSTAX-D": "“Instax SHARE”",
+      "INSTAX-E": "sur votre smartphone vous pourrez imprimer autant de polaroids que vous le souhaitez et les coller dans le livre d’or. Qu’est-ce que vous en dites ?",
+      "LINKS": "Vous trouverez l’application ici :",
+      "WEDPICS-A": "Nous avons aussi une application qui s’appelle",
+      "WEDPICS-B": "Wedpics",
+      "WEDPICS-C": ", qui est en quelque sort comme un Instagram pour les mariages, et tout le monde peut joindre notre mariage sur leur",
+      "WEDPICS-D": "site web",
+      "WEDPICS-E": "ou en installant l’application (",
+      "WEDPICS-F": ") et en spécifiant notre ID :",
+      "WEDPICS-G": ". Après vous pourrez partager toutes vos photos et vidéos en ajoutant les tags de votre choix et nous pourrons les télécharger en haute définition. Ce serait super si vous pouviez nous aider à capturer les moments les plus importants de notre mariage !",
+      "BYE": "Merci et à bientôt :)",
+      "SIGNATURE": "María et J-Y"
     }
   },
 
