@@ -24,6 +24,7 @@ import { NewsFlightComponent } from './news/_subComponents/news-flight/news-flig
 import { NewsHoneymoonComponent } from './news/_subComponents/news-honeymoon/news-honeymoon.component';
 import { NewsCostaComponent } from './news/_subComponents/news-costa/news-costa.component';
 import { NewsAppsComponent } from './news/_subComponents/news-apps/news-apps.component';
+import { NewsGlossaryComponent } from './news/_subComponents/news-glossary/news-glossary.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -47,7 +48,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     NewsFlightComponent,
     NewsHoneymoonComponent,
     NewsCostaComponent,
-    NewsAppsComponent
+    NewsAppsComponent,
+    NewsGlossaryComponent
   ],
   imports: [
     BrowserModule,

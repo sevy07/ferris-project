@@ -168,6 +168,9 @@
       },
       "FOUR": {
         "TITLE": "Las apps que necesitaréis"
+      },
+      "FIVE": {
+        "TITLE": "El glosario de nuestra boda"
       }
     },
     "FLIGHT": {
@@ -269,6 +272,17 @@
       "WEDPICS-G": ". Luego podréis compartir todas vuestras fotos y vuestros vídeos añadiendo las etiquetas que elijáis y nosotros podremos descargárnoslos en buena calidad. ¡Os agradeceríamos muchísimo que nos ayudaseis a capturar los momentos más especiales del día de nuestra boda!",
       "BYE": "Muchas gracias y hasta pronto :)",
       "SIGNATURE": "María y J-Y"
+    },
+    "GLOSSARY": {
+      "TITLE": "EL GLOSARIO DE NUESTRA BODA",
+      "DATE": "23 de abril de 2018",
+      "WELCOME": "¡Hola, chicos!",
+      "DETAILS": "¿Qué tal? Como probablemente sabréis, nuestra boda va a ser bastante internacional, así que… ¡tendréis la oportunidad perfecta para socializar y poner en práctica vuestras envidiables habilidades lingüísticas!",
+      "INTRO": "Aquí tenéis alguna terminología nupcial para sobrevivir al gran día… ",
+      "BASICS": "El vocabulario esencial:",
+      "USEFUL": "Algunas expresiones útiles:",
+      "BYE": "¡Buena suerte! Bon courage ! Good luck!",
+      "SIGNATURE": "María and J-Y"
     }
   },
 

@@ -165,6 +165,9 @@
       },
       "FOUR": {
         "TITLE": "Les apps dont vous aurez besoin"
+      },
+      "FIVE": {
+        "TITLE": "Le glossaire de notre mariage"
       }
 },
     "FLIGHT": {
@@ -274,6 +277,17 @@
       "WEDPICS-G": ". Après vous pourrez partager toutes vos photos et vidéos en ajoutant les tags de votre choix et nous pourrons les télécharger en haute définition. Ce serait super si vous pouviez nous aider à capturer les moments les plus importants de notre mariage !",
       "BYE": "Merci et à bientôt :)",
       "SIGNATURE": "María et J-Y"
+    },
+    "GLOSSARY": {
+      "TITLE": "LE GLOSSAIRE DE NOTRE MARIAGE",
+      "DATE": "23 avril 2018",
+      "WELCOME": "Bonjour tout le monde !",
+      "DETAILS": "Comment ça va ? Comme vous le savez probablement, nous aurons un mariage très international et ce sera une opportunité parfaite pour faire connaissance et mettre en pratique vos incroyables talents linguistiques !",
+      "INTRO": "Donc voici voilà un petit peu de terminologie nuptiale qui vous aidera à surmonter le jour M…",
+      "BASICS": "Le vocabulaire essentiel :",
+      "USEFUL": "Quelques expressions utiles :",
+      "BYE": "Bon courage ! ¡Buena suerte! Good luck!",
+      "SIGNATURE": "María and J-Y"
     }
   },
 

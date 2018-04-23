@@ -1,0 +1,51 @@
+<div class="full-image-container glossary-viewport news-glossary-background">
+
+  <app-menu></app-menu>
+
+  <div class="padding-border">
+    <div class="white-bkgd">
+      <h1>
+        {{ 'NEWS.GLOSSARY.TITLE' | translate }}
+      </h1>
+
+      <h2>{{ 'NEWS.GLOSSARY.DATE' | translate }}</h2>
+
+      <p>{{ 'NEWS.GLOSSARY.WELCOME' | translate }}</p>
+      <p>{{ 'NEWS.GLOSSARY.DETAILS' | translate }}</p>
+      <p>{{ 'NEWS.GLOSSARY.INTRO' | translate }}</p>
+
+      <section>
+        <div class="table-title">{{ 'NEWS.GLOSSARY.BASICS' | translate }}</div>
+        <table>
+          <tr>
+            <th *ngFor="let lang of order[translateService.currentLang]">{{lang}}</th>
+          </tr>
+          <tr *ngFor="let word of basics[translateService.currentLang]; index as i">
+            <td>{{word}}</td>
+            <td>{{basics[order[translateService.currentLang][1]][i]}}</td>
+            <td>{{basics[order[translateService.currentLang][2]][i]}}</td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <div class="table-title">{{ 'NEWS.GLOSSARY.USEFUL' | translate }}</div>
+        <table>
+          <tr>
+            <th *ngFor="let lang of order[translateService.currentLang]">{{lang}}</th>
+          </tr>
+          <tr *ngFor="let word of useful[translateService.currentLang]; index as i">
+            <td>{{word}}</td>
+            <td>{{useful[order[translateService.currentLang][1]][i]}}</td>
+            <td>{{useful[order[translateService.currentLang][2]][i]}}</td>
+          </tr>
+        </table>
+      </section>
+
+      <p>{{ 'NEWS.GLOSSARY.BYE' | translate }}</p>
+      <p>{{ 'NEWS.GLOSSARY.SIGNATURE' | translate }}</p>
+
+    </div>
+
+  </div>
+</div>
