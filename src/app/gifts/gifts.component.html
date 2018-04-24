@@ -12,8 +12,8 @@
       {{ 'GIFTS.DETAILS' | translate }}
     </p>
 
-    <ngb-accordion [closeOthers]="true">
-      <ngb-panel id="static-1">
+    <ngb-accordion [closeOthers]="true" #acc="ngbAccordion" (panelChange)="notifyPanelChange($event)">
+      <ngb-panel id="account-uk">
         <ng-template ngbPanelTitle>
           <span>{{ 'GIFTS.UK-TITLE' | translate }}</span>
         </ng-template>
@@ -25,7 +25,7 @@
           <div>BIC: TSBSGB21437</div>
         </ng-template>
       </ngb-panel>
-      <ngb-panel id="static-2">
+      <ngb-panel id="account-fr">
         <ng-template ngbPanelTitle>
           <span>{{ 'GIFTS.FR-TITLE' | translate }}</span>
         </ng-template>
@@ -35,7 +35,7 @@
           <div>BIC: BOUSFRPPXXX</div>
         </ng-template>
       </ngb-panel>
-      <ngb-panel id="static-3">
+      <ngb-panel id="account-es">
         <ng-template ngbPanelTitle>
           <span>{{ 'GIFTS.ES-TITLE' | translate }}</span>
         </ng-template>

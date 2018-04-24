@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+
+import { GaEventsService } from '../ga-events.service';
 
 @Component({
   selector: 'app-contact-us',
   templateUrl: './contact-us.component.html',
   styleUrls: ['./contact-us.component.scss']
 })
-export class ContactUsComponent implements OnInit {
+export class ContactUsComponent {
 
-  constructor() { }
+  constructor(private gaService: GaEventsService) { }
 
-  ngOnInit() {
+  onMailSent() {
+    this.gaService.emitEvent('contact-us', 'send-email', 'clicked');
   }
 
 }

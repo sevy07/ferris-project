@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-import { NgbAccordionConfig } from '@ng-bootstrap/ng-bootstrap';
+import { NgbAccordionConfig, NgbPanelChangeEvent  } from '@ng-bootstrap/ng-bootstrap';
+
+import { GaEventsService } from '../ga-events.service';
 
 @Component({
   selector: 'app-gifts',
@@ -10,9 +12,15 @@ import { NgbAccordionConfig } from '@ng-bootstrap/ng-bootstrap';
 })
 export class GiftsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private gaService: GaEventsService) { }
 
   ngOnInit() {
+  }
+
+  notifyPanelChange(event: NgbPanelChangeEvent ) {
+    if (event.nextState) {
+      this.gaService.emitEvent('bank-account', 'revealed', event.panelId);
+    }
   }
 
 }

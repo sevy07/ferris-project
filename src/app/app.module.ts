@@ -8,6 +8,8 @@ import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap/accordion/accordi
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 
+import { GaEventsService } from './ga-events.service';
+
 import { AppComponent } from './app.component';
 import { CountDownComponent } from './count-down/count-down.component';
 import { HomeComponent } from './home/home.component';
@@ -64,7 +66,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     })
   ],
-  providers: [],
+  providers: [GaEventsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
