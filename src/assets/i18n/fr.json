@@ -168,6 +168,9 @@
       },
       "FIVE": {
         "TITLE": "Le glossaire de notre mariage"
+      },
+      "SIX": {
+        "TITLE": "Coiffure et maquillage"
       }
 },
     "FLIGHT": {
@@ -288,6 +291,16 @@
       "USEFUL": "Quelques expressions utiles :",
       "BYE": "Bon courage ! ¡Buena suerte! Good luck!",
       "SIGNATURE": "María and J-Y"
+    },
+    "HAIR": {
+      "TITLE": "Coiffure et maquillage : nous avons ce qu’il te faut.",
+      "DATE": "24 avril 2018",
+      "DETAILS": "Tu veux te faire coiffer et maquiller par des professionnels ? Voici quelques salons de coiffure à Saint-Jacques de Compostelle :",
+      "MORE": "Si tu ne parles pas espagnol ça pourrait être une bonne idée d'emmener une photo de ta coiffure préférée et de la montrer au coiffeur ! Si tu as des questions ou si tu as besoin d’aide pour prendre rendez-vous, n’hésite pas à nous contacter.",
+      "PHONE": "Tél :",
+      "ADDRESS": "Adresse :",
+      "BYE": "À bientôt :)",
+      "SIGNATURE": "María et J-Y"
     }
   },
 

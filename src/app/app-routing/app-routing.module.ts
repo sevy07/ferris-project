@@ -14,6 +14,7 @@ import { NewsHoneymoonComponent } from '../news/_subComponents/news-honeymoon/ne
 import { NewsCostaComponent } from '../news/_subComponents/news-costa/news-costa.component';
 import { NewsAppsComponent } from '../news/_subComponents/news-apps/news-apps.component';
 import { NewsGlossaryComponent } from '../news/_subComponents/news-glossary/news-glossary.component';
+import { NewsHairComponent } from '../news/_subComponents/news-hair/news-hair.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -30,6 +31,7 @@ const routes: Routes = [
   { path: 'news/costa-da-morte', component: NewsCostaComponent },
   { path: 'news/apps', component: NewsAppsComponent },
   { path: 'news/glossary', component: NewsGlossaryComponent },
+  { path: 'news/hair-makeup', component: NewsHairComponent },
   { path: '**', component: HomeComponent }
 ];
 

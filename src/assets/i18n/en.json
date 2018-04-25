@@ -168,6 +168,9 @@
       },
       "FIVE": {
         "TITLE": "Check out our wedding glossary"
+      },
+      "SIX": {
+        "TITLE": "Hair and makeup - look no further!"
       }
     },
     "FLIGHT": {
@@ -289,6 +292,16 @@
       "BASICS": "The basics...",
       "USEFUL": "Some useful expressions:",
       "BYE": "Good luck! ¡Buena suerte! Bon courage !",
+      "SIGNATURE": "María and J-Y"
+    },
+    "HAIR": {
+      "TITLE": "Hair and makeup - We’ve got you covered!",
+      "DATE": "24th April 2018",
+      "DETAILS": "Would you like to get your hair and makeup done? Here are a few beauty salons in Santiago:",
+      "MORE": "If you don’t speak any Spanish it might be a good idea to bring a picture of your favourite hairstyle and show it to the hairdresser! Let us know if you have any questions or if you need any help to book an appointment.",
+      "PHONE": "Phone:",
+      "ADDRESS": "Address:",
+      "BYE": "See you soon :)",
       "SIGNATURE": "María and J-Y"
     }
   },

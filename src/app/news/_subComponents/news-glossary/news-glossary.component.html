@@ -20,10 +20,10 @@
           <tr>
             <th *ngFor="let lang of order[translateService.currentLang]">{{lang}}</th>
           </tr>
-          <tr *ngFor="let word of basics[translateService.currentLang]; index as i">
-            <td>{{word}}</td>
-            <td>{{basics[order[translateService.currentLang][1]][i]}}</td>
-            <td>{{basics[order[translateService.currentLang][2]][i]}}</td>
+          <tr *ngFor="let word of getOrderedList(translateService.currentLang, basics)">
+            <td>{{word[translateService.currentLang]}}</td>
+            <td>{{word[order[translateService.currentLang][1]]}}</td>
+            <td>{{word[order[translateService.currentLang][2]]}}</td>
           </tr>
         </table>
       </section>
@@ -34,10 +34,10 @@
           <tr>
             <th *ngFor="let lang of order[translateService.currentLang]">{{lang}}</th>
           </tr>
-          <tr *ngFor="let word of useful[translateService.currentLang]; index as i">
-            <td>{{word}}</td>
-            <td>{{useful[order[translateService.currentLang][1]][i]}}</td>
-            <td>{{useful[order[translateService.currentLang][2]][i]}}</td>
+          <tr *ngFor="let word of  getOrderedList(translateService.currentLang, useful)">
+            <td>{{word[translateService.currentLang]}}</td>
+            <td>{{word[order[translateService.currentLang][1]]}}</td>
+            <td>{{word[order[translateService.currentLang][2]]}}</td>
           </tr>
         </table>
       </section>
