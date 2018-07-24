@@ -28,6 +28,7 @@ import { NewsCostaComponent } from './news/_subComponents/news-costa/news-costa.
 import { NewsAppsComponent } from './news/_subComponents/news-apps/news-apps.component';
 import { NewsGlossaryComponent } from './news/_subComponents/news-glossary/news-glossary.component';
 import { NewsHairComponent } from './news/_subComponents/news-hair/news-hair.component';
+import { NewsFaqComponent } from './news/_subComponents/news-faq/news-faq.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -53,7 +54,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     NewsCostaComponent,
     NewsAppsComponent,
     NewsGlossaryComponent,
-    NewsHairComponent
+    NewsHairComponent,
+    NewsFaqComponent
   ],
   imports: [
     BrowserModule,

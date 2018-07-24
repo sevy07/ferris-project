@@ -1,0 +1,23 @@
+@import '../../../../variables';
+
+.news-faq-background {
+  background-color: rgb(214, 193, 192);
+}
+
+h1 {
+  font-size: 7vmin;
+  padding: 10vmin 10vmin 3vh;
+}
+
+ol {
+  padding: 0 4.5rem;
+  text-align: justify;
+
+  li {
+    margin-bottom: 4rem;
+  }
+}
+
+img {
+  margin-top: 3vh;
+}
