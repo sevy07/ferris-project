@@ -9,10 +9,16 @@
 
   "COUNT-DOWN": {
     "TITLE": "La boda es en…",
+    "TITLE-AFTER": "Nos casamos hace...",
+    "DURING": "¡¡¡Esperamos que os lo estéis pasando genial!!!",
     "DAYS": "días",
     "HOURS": "horas",
     "MINUTES": "minutos",
-    "SECONDS": "segundos"
+    "SECONDS": "segundos",
+    "DAY": "día",
+    "HOUR": "hora",
+    "MINUTE": "minuto",
+    "SECOND": "segundo"
   },
 
   "OUR-STORY": {

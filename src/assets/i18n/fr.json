@@ -9,10 +9,16 @@
 
   "COUNT-DOWN": {
     "TITLE": "Notre mariage est dans…",
+    "TITLE-AFTER": "Nous sommes mariés depuis...",
+    "DURING": "Profitez bien de la soirée !!!",
     "DAYS": "jours",
     "HOURS": "heures",
     "MINUTES": "minutes",
-    "SECONDS": "secondes"
+    "SECONDS": "secondes",
+    "DAY": "jour",
+    "HOUR": "heure",
+    "MINUTE": "minute",
+    "SECOND": "seconde"
   },
 
   "OUR-STORY": {

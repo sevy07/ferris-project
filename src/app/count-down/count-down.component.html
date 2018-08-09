@@ -1,15 +1,69 @@
-<p>
-  <span>{{'COUNT-DOWN.TITLE' | translate}}</span>
-</p>
-<p class="bold">
-  {{days}}
-  <span>{{'COUNT-DOWN.DAYS' | translate}}</span>
-  {{hours}}
-  <span>{{'COUNT-DOWN.HOURS' | translate}}</span>
-  {{minutes}}
-  <span>{{'COUNT-DOWN.MINUTES' | translate}}</span>
-  {{seconds}}
-  <span>{{'COUNT-DOWN.SECONDS' | translate}}</span>
-</p>
+<ng-container *ngIf="getSituation() as situation">
+  <ng-container *ngIf="(situation === 'before' || situation === 'after') else during">
+    <p>
+      <span>
+        <ng-container *ngIf="situation === 'before' else after">
+          {{'COUNT-DOWN.TITLE' | translate}}
+        </ng-container>
+      </span>
+    </p>
+
+    <p class="bold">
+      {{days}}
+      <span>
+        <ng-container *ngIf="days === 1 else day">
+           {{'COUNT-DOWN.DAY' | translate}}
+        </ng-container>
+      </span>
+      {{hours}}
+      <span>
+        <ng-container *ngIf="hours ===1 else hour">
+          {{'COUNT-DOWN.HOUR' | translate}}
+        </ng-container>
+      </span>
+      {{minutes}}
+        <ng-container *ngIf="minutes === 1 else minute">
+          {{'COUNT-DOWN.MINUTE' | translate}}
+        </ng-container>
+      {{seconds}}
+        <ng-container *ngIf="seconds === 1 else second">
+          {{'COUNT-DOWN.SECOND' | translate}}
+        </ng-container>
+    </p>
+
+  </ng-container>
+
+
+
+</ng-container>
+
+<ng-template #after>
+  {{'COUNT-DOWN.TITLE-AFTER' | translate}}
+</ng-template>
+
+<ng-template #during>
+  <p>
+    <span>{{'COUNT-DOWN.DURING' | translate}}</span>
+  </p>
+</ng-template>
+
+<ng-template #day>
+   {{'COUNT-DOWN.DAYS' | translate}}
+</ng-template>
+
+<ng-template #hour>
+   {{'COUNT-DOWN.HOURS' | translate}}
+</ng-template>
+
+<ng-template #minute>
+   {{'COUNT-DOWN.MINUTES' | translate}}
+</ng-template>
+
+<ng-template #second>
+   {{'COUNT-DOWN.SECONDS' | translate}}
+</ng-template>
+
+
+
 
 

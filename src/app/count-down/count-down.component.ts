@@ -31,6 +31,21 @@ export class CountDownComponent implements OnInit, OnDestroy {
     .subscribe(() => this.setCurrentRemainingTime(this.getTimeRemaining()));
   }
 
+  getSituation(): string {
+    let remaining = this.weddingDate.getTime() - new Date().getTime();
+
+    const ceremonyDuration = 9 * 60 * 60 * 1000;
+    if (remaining > 0) {
+      return 'before';
+    } else {
+      remaining *= -1;
+      if (remaining < ceremonyDuration) {
+        return 'during';
+      }
+      return 'after';
+    }
+  }
+
   setCurrentRemainingTime(remaining) {
     this.days = remaining.days;
     this.hours = remaining.hours;
@@ -39,7 +54,12 @@ export class CountDownComponent implements OnInit, OnDestroy {
   }
 
   getTimeRemaining() {
-    const t = this.weddingDate.getTime() - new Date().getTime();
+    let t = this.weddingDate.getTime() - new Date().getTime();
+
+    if (t < 0) {
+      t *= -1;
+    }
+
     const seconds = Math.floor( (t / 1000) % 60 );
     const minutes = Math.floor( (t / 1000 / 60) % 60 );
     const hours = Math.floor( (t / (1000 * 60 * 60)) % 24 );
